@@ -4,8 +4,173 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glenview Vision</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-    <h1>hi</h1>
+    <!-- this is the navbar section, contains links to other pages, office hours and contact info. in mobile view it will have hamburger menu -->
+    <div id="navbar">
+        <div class="logo"><img src="../images/glenview.png" alt="Logo"></div>
+        <ul id="Navigation">
+            <div class="nav-links">
+              <li><a href="./index.html" target="_blank">Home</a></li>
+              <li><a href="./about.html" target="_blank">About Us</a></li>
+              <li><a href="./service.html" target="_blank">Services</a></li>
+              <li><a href="./articles.html" target="_blank">Articles</a></li>
+              <li><a href="./promotions.html" target="_blank">Promotions</a></li>
+            </div>
+          </ul>
+          <div id="phone">
+            <a href="tel:+18475102111"><img src="../images/call.png" alt="Phone number"></a>
+            <p class="gout">GIVE US A CALL</p>
+            <a href="tel:+18475102111">847-510-2111</a>
+          </div>
+          <div id="hours">
+            <button><img src="../images/hours.png" alt="Office Hours"></button>
+            <table>
+                <p class="gout">OFFICE HOURS</p>
+                <tr><th>MON</th><td>9:30 AM - 12:30 PM</td></tr>
+                <tr><th>TUE</th><td>9:30 AM - 6:00 PM</td></tr>
+                <tr><th>THU</th><td>9:30 AM - 6:00 PM</td></tr>
+                <tr><th>FRI</th><td>9:30 AM - 5:30 PM</td></tr>
+                <tr><th>SAT</th><td>9:30 AM - 1:30 PM</td></tr>
+            </table>
+        </div>
+    </div>
+    <!-- this is statement section with only buttons for appointment and prescription -->
+    <div id="statement">
+        <!-- this is a banner that will have more information about covid - 19 requirements and restrictions -->
+        <div id="covid">
+            <p>COVID - 19</p>
+            <p>Rules</p>
+        </div>
+        <h1>GLENVIEW VISION CARE</h1>
+        <p>We are excited to provide you the professional Eye Care services in a comfortable and friendly environment. Please contact us to schedule your appoinment today.</p>
+        <button class="">Book An Appointment</button>
+        <button class="">Prescriptions</button>
+    </div>
+    <!-- Services section. listed with pics associated, link to services page  -->
+    <div id="service">
+        <div id="comp">
+            <a href="./service.html" target="_blank">
+                <img src="" alt="">
+                <p>Comprehensive Family Eye Care</p>
+            </a>
+        </div>
+        <div id="lasik">
+            <a href="./service.html" target="_blank">
+                <img src="" alt="">
+                <p>Lasik Evaluation</p>
+            </a>
+        </div>
+        <div id="pediatric">
+            <a href="./service.html" target="_blank">
+                <img src="" alt="">
+                <p>Pediatric Eye Exams (InfantSee)</p>
+            </a>
+        </div>
+        <div id="eval">
+            <a href="./service.html" target="_blank">
+                <img src="" alt="">
+                <p>Evaluation, Management, and Treatment of Eye Disease (including Emergencies)</p>
+            </a>
+        </div>
+        <a href="./service.html" target="_blank"><button>See All Services</button></a>
+    </div>
+    <!-- about section. readmore goes to about page -->
+    <div id="about">
+        <img src="" alt="">
+        <h2>GLENVIEW VISION CARE</h2>
+        <p>Glenview Vision Care is a progressive, caring environment 
+            located in Glenview for patients of the greater North Shore area. We embrace cutting edge 
+            technologies and provide only the highest quality level of care.
+        </p>
+        <a href="./about.html" target="_blank">Read More ></a>
+    </div>
+    <!-- review section. list of testimonials and link to google/yelp review -->
+    <div id="review">
+        <h1>Testimonials</h1>
+        <div id="review1">
+            <p>Taking my kids to a doctor has never been easier. They just loved the welcoming and warm atmosphere in there!</p>
+            <p>Smith  – May 10, 2018</p>
+        </div>
+        <div id="review2">
+            <p>I urgently required  help last 4th of July. And despite all other clinics being closed, GlenView took my appointment!</p>
+            <p>Herbert – May 10, 2018</p>
+        </div>
+        <div id="review3">
+           <p>Taking my kids to a doctor has never been easier. They just loved the welcoming and warm atmosphere in there!</p>
+           <p>Daniela – May 10, 2018</p>
+        </div>
+        <a href="" target="_blank"><button>Review Us</button></a>
+    </div>
+    <!-- article section. list of articles and link to article page -->
+    <div id="article">
+        <h2>Eye Opening Articles</h2>
+        <div id="corrective">
+            <img src="" alt="">
+            <p>Corrective Eye Surgery Basics</p>
+            <a href="./articles.html" target="_blank">Read More</a>
+        </div>
+        <div id="vision">
+            <img src="" alt="">
+            <p>Vision Therapy for Children</p>
+            <a href="./articles.html" target="_blank">Read More</a>
+        </div>
+        <div id="important">
+            <img src="" alt="">
+            <p>Why Are Eye Exams Important?</p>
+            <a href="./articles.html" target="_blank">Read More</a>
+        </div>
+        <a href="./articles.html" target="_blank"><button>See All Articles</button></a>
+
+    </div>
+    <!-- contact section -->
+    <div id="contact">
+        <div id="reach">
+            <h2>GLENVIEW VISION CARE</h2>
+            <div id="contactPhone">
+                <a href=""tel:+18475102111><img src="../images/call.png" alt="Phone Call"></a>
+                <p class="gout">GIVE US A CALL</p>
+                <a href="tel:+18475102111">847-510-2111</a>
+            </div>
+            <div id="email">
+               <a href="mailto:gvc@glenviewvision.com?subject=" target="_blank"><img src="../images/email.png" alt="Email"></a>
+                <p class="gout"> SEND US AN EMAIL</p>
+                <a href="mailto:gvc@glenviewvision.com?subject= " target="_blank">gvc@glenviewvision.com</a>
+            </div>
+            <div id="address">
+                <a href="https://maps.google.com/?q=1920 Waukegan Road Suite 1 Glenview, IL 60025"
+                target="_blank"><a
+                  href="https://maps.apple.com/maps?q=1920 Waukegan Road Suite 1 Glenview, IL 60025"
+                  target="_blank"><img src="../images/map.png" alt="Map">
+                 </a></a>
+                <a href="https://maps.google.com/?q=1920 Waukegan Road Suite 1 Glenview, IL 60025"
+                target="_blank"><a
+                  href="https://maps.apple.com/maps?q=1920 Waukegan Road Suite 1 Glenview, IL 60025"
+                  target="_blank">
+                  1920 Waukegan Road Suite 1
+                 Glenview, IL 60025
+                 </a></a>
+            </div>
+        </div>
+        <div id="off">
+            <table>
+                <h2 class="gout">OFFICE HOURS</h2>
+                <tr><th>MON</th><td>9:30 AM - 12:30 PM</td></tr>
+                <tr><th>TUE</th><td>9:30 AM - 6:00 PM</td></tr>
+                <tr><th>THU</th><td>9:30 AM - 6:00 PM</td></tr>
+                <tr><th>FRI</th><td>9:30 AM - 5:30 PM</td></tr>
+                <tr><th>SAT</th><td>9:30 AM - 1:30 PM</td></tr>
+            </table>
+        </div>
+        <div id="follow">
+            <h2>FOLLOW US</h2>
+            <a href="" target="_blank"><img src="../images/insta.png" alt="Instagram"></a>
+            <a href="" target="_blank"><img src="../images/fb.png" alt="Facebook"></a>
+        </div>
+    </div>
 </body>
+<script src="../index.js"></script>
 </html>

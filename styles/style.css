@@ -1,0 +1,71 @@
+/* mobile view */
+@media only screen and (max-width: 700px){
+   
+}
+
+/* -------------------- desktop view ---------------------- */
+@media only screen and (min-width: 700px){
+    
+}
+/* --------------------- outside media queries --------------- */
+/* body section */
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.gout{
+    color: #6d6d6d;
+}
+button{
+    cursor: pointer;
+}
+/* navbar section */
+#navbar{
+    background-color: #4c4c4c;
+    display: flex;
+}
+#navbar button{
+    background-color: transparent;
+    border: none;
+}
+#navbar ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+/* statement section */
+#statement{
+    background-color: gray;
+}
+/* service section */
+#service{
+ color: black;
+}
+#service a{
+    color: black;
+}
+/* about section */
+#about{
+    color: black;
+}
+/* review section */
+#review{
+    color: black;
+}
+/* article section */
+#article{
+    color: black;
+}
+#article a{
+    color: black;
+}
+/* contact section */
+#contact{
+    background-color: #4c4c4c;
+}
