@@ -1,0 +1,16 @@
+/* mobile view */
+@media only screen and (max-width: 700px){
+   
+}
+
+/* -------------------- desktop view ---------------------- */
+@media only screen and (min-width: 700px){
+    
+}
+/* --------------------- outside media queries --------------- */
+#eyearticle{
+    background-color: #5e5e5e;
+}
+#eyearticle a {
+    color: #000000;
+}

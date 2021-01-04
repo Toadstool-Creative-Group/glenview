@@ -69,3 +69,7 @@ li{
 #contact{
     background-color: #4c4c4c;
 }
+#contact button{
+    background-color: transparent;
+    border: none
+}

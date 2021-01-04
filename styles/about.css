@@ -1,0 +1,24 @@
+/* this is for the about/our practice page */
+/* mobile view */
+@media only screen and (max-width: 700px;){
+
+}
+/* -------------------desktop view----------- */
+@media only screen and (min-width: 700px){
+
+}
+/* ---------------------outside media queries--------- */
+/* top section */
+#aboutTop{
+    background-color: #5e5e5e;
+}
+#aboutTop a{
+   color: #000000; 
+}
+/* bottom section */
+#aboutBottom{
+    background-color: #5e5e5e;
+}
+#aboutBottom a{
+    color: #000000;
+}

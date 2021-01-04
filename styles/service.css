@@ -1,0 +1,21 @@
+/* mobile view */
+@media only screen and (max-width: 700px){
+   
+}
+
+/* -------------------- desktop view ---------------------- */
+@media only screen and (min-width: 700px){
+    
+}
+/* --------------------- outside media queries --------------- */
+/* top section */
+#serviceTop{
+    background-color: #5e5e5e;
+}
+#serviceTop a{
+    color: #000000;
+}
+/* bottom section */
+#serviceBottom{
+    background-color: #5e5e5e;
+}
