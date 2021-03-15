@@ -1,11 +1,23 @@
 /* mobile view */
 @media only screen and (max-width: 700px){
+   #hourTable, .gout, .tel{
+       display: none;
+   }
+   .menu-icon{
+    display: block;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    margin-top: 15px;
+  }
    
 }
 
 /* -------------------- desktop view ---------------------- */
 @media only screen and (min-width: 700px){
-    
+    .menu-icon{
+        display: none;
+    }
 }
 /* --------------------- outside media queries --------------- */
 /* body section */
@@ -25,7 +37,7 @@ button{
 }
 /* navbar section */
 #navbar{
-    background-color: #4c4c4c;
+    background-color: #232323;
     display: flex;
 }
 #navbar button{
