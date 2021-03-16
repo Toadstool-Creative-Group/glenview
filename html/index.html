@@ -43,41 +43,41 @@
     <div id="statement">
         <!-- this is a banner that will have more information about covid - 19 requirements and restrictions -->
         <div id="covid">
-            <p>COVID - 19</p>
+            <p id="cvd">COVID - 19</p>
             <p>Rules</p>
         </div>
         <h1>GLENVIEW VISION CARE</h1>
-        <p>We are excited to provide you the professional Eye Care services in a comfortable and friendly environment. Please contact us to schedule your appoinment today.</p>
-        <button class="appt">Book An Appointment</button>
-        <button class="appt">Prescriptions</button>
+        <p id="care">We are excited to provide you the professional Eye Care services in a comfortable and friendly environment. Please contact us to schedule your appoinment today.</p>
+        <button class="appt">Request An Appointment</button>
+        <button class="appt">Renew Prescriptions</button>
     </div>
     <!-- Services section. listed with pics associated, link to services page  -->
     <div id="service">
         <div id="comp">
             <a href="./service.html" target="_blank">
-                <img src="" alt="">
+                <img src="../images/filler.png" alt="">
                 <p>Comprehensive Family Eye Care</p>
             </a>
         </div>
         <div id="lasik">
             <a href="./service.html" target="_blank">
-                <img src="" alt="">
+                <img src="../images/filler.png" alt="">
                 <p>Lasik Evaluation</p>
             </a>
         </div>
         <div id="pediatric">
             <a href="./service.html" target="_blank">
-                <img src="" alt="">
+                <img src="../images/filler.png" alt="">
                 <p>Pediatric Eye Exams (InfantSee)</p>
             </a>
         </div>
         <div id="eval">
             <a href="./service.html" target="_blank">
-                <img src="" alt="">
+                <img src="../images/filler.png" alt="">
                 <p>Evaluation, Management, and Treatment of Eye Disease (including Emergencies)</p>
             </a>
         </div>
-        <a href="./service.html" target="_blank"><button>See All Services</button></a>
+        <a href="./service.html" target="_blank"><button class="more">See All Services</button></a>
     </div>
     <!-- about section. readmore goes to about page -->
     <div id="about">
@@ -104,61 +104,33 @@
            <p>Taking my kids to a doctor has never been easier. They just loved the welcoming and warm atmosphere in there!</p>
            <p>Daniela – May 10, 2018</p>
         </div>
-        <a href="" target="_blank"><button>Review Us</button></a>
+        <a href="" target="_blank"><button class="more">Review Us</button></a>
     </div>
     <!-- article section. list of articles and link to article page -->
     <div id="article">
         <h2>Eye Opening Articles</h2>
         <div id="corrective">
-            <img src="" alt="">
+            <img src="../images/filler.png" alt="">
             <p>Corrective Eye Surgery Basics</p>
-            <a href="./articles.html" target="_blank">Read More</a>
         </div>
         <div id="vision">
-            <img src="" alt="">
+            <img src="../images/filler.png" alt="">
             <p>Vision Therapy for Children</p>
-            <a href="./articles.html" target="_blank">Read More</a>
         </div>
         <div id="important">
-            <img src="" alt="">
+            <img src="../images/filler.png" alt="">
             <p>Why Are Eye Exams Important?</p>
-            <a href="./articles.html" target="_blank">Read More</a>
         </div>
-        <a href="./articles.html" target="_blank"><button>See All Articles</button></a>
+        <a href="./articles.html" target="_blank"><button class="more">See All</button></a>
 
     </div>
     <!-- contact section -->
     <div id="contact">
-        <div id="reach">
-            <h2>GLENVIEW VISION CARE</h2>
-            <div id="contactPhone">
-                <a href=""tel:+18475102111><img src="../images/call.png" alt="Phone Call"></a>
-                <p class="gout">GIVE US A CALL</p>
-                <a href="tel:+18475102111">847-510-2111</a>
-            </div>
-            <div id="email">
-               <a href="mailto:gvc@glenviewvision.com?subject=" target="_blank"><img src="../images/email.png" alt="Email"></a>
-                <p class="gout"> SEND US AN EMAIL</p>
-                <a href="mailto:gvc@glenviewvision.com?subject= " target="_blank">gvc@glenviewvision.com</a>
-            </div>
-            <div id="address">
-                <a href="https://maps.google.com/?q=1920 Waukegan Road Suite 1 Glenview, IL 60025"
-                target="_blank"><a
-                  href="https://maps.apple.com/maps?q=1920 Waukegan Road Suite 1 Glenview, IL 60025"
-                  target="_blank"><img src="../images/map.png" alt="Map">
-                 </a></a>
-                <a href="https://maps.google.com/?q=1920 Waukegan Road Suite 1 Glenview, IL 60025"
-                target="_blank"><a
-                  href="https://maps.apple.com/maps?q=1920 Waukegan Road Suite 1 Glenview, IL 60025"
-                  target="_blank">
-                  1920 Waukegan Road Suite 1
-                 Glenview, IL 60025
-                 </a></a>
-            </div>
-        </div>
+        <h2>Glenview Vision Care</h2>
         <div id="off">
+            <p class="hey">Office Hours</p>
             <button><img src="../images/hours.png" alt="Office Hours"></button>
-            <table>
+            <table class="tel">
                 <h2 class="gout">OFFICE HOURS</h2>
                 <tr><th>MON</th><td>9:30 AM - 12:30 PM</td></tr>
                 <tr><th>TUE</th><td>9:30 AM - 6:00 PM</td></tr>
@@ -167,10 +139,38 @@
                 <tr><th>SAT</th><td>9:30 AM - 1:30 PM</td></tr>
             </table>
         </div>
+        <p class="hey">Contact Us</p>
+        <div id="reach">
+            <div id="contactPhone">
+                <a href=""tel:+18475102111><img src="../images/call.png" alt="Phone Call" class="imagine"></a>
+                <p class="gout">GIVE US A CALL</p>
+                <a href="tel:+18475102111" class="tel">847-510-2111</a>
+            </div>
+            <div id="email">
+               <a href="mailto:gvc@glenviewvision.com?subject=" target="_blank"><img src="../images/email.png" alt="Email" class="imagine"></a>
+                <p class="gout"> SEND US AN EMAIL</p>
+                <a href="mailto:gvc@glenviewvision.com?subject= " target="_blank" class="tel">gvc@glenviewvision.com</a>
+            </div>
+            <div id="address">
+                <a href="https://maps.google.com/?q=1920 Waukegan Road Suite 1 Glenview, IL 60025"
+                target="_blank"><a
+                  href="https://maps.apple.com/maps?q=1920 Waukegan Road Suite 1 Glenview, IL 60025"
+                  target="_blank"><img src="../images/map.png" alt="Map" class="imagine">
+                 </a></a>
+                <a href="https://maps.google.com/?q=1920 Waukegan Road Suite 1 Glenview, IL 60025"
+                target="_blank"><a
+                  href="https://maps.apple.com/maps?q=1920 Waukegan Road Suite 1 Glenview, IL 60025"
+                  target="_blank" class="tel">
+                  1920 Waukegan Road Suite 1
+                 Glenview, IL 60025
+                 </a></a>
+            </div>
+        </div>
         <div id="follow">
+            <p class="hey">Follow Us</p>
             <h2>FOLLOW US</h2>
-            <a href="" target="_blank"><img src="../images/insta.png" alt="Instagram"></a>
-            <a href="" target="_blank"><img src="../images/fb.png" alt="Facebook"></a>
+            <a href="" target="_blank"><img src="../images/insta.png" alt="Instagram" class="imagine"></a>
+            <a href="" target="_blank"><img src="../images/fb.png" alt="Facebook" class="imagine"></a>
         </div>
     </div>
 </body>

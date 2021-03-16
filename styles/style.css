@@ -10,9 +10,52 @@
     height: 25px;
     margin-top: 15px;
   }
-   
+  /* top section for landing page */
+  #statement h1{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 50px;
+  }
+  #care{
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 25%;
+      margin-top: 20%;
+  }
+  #statement{
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 5% 10% 20% 10%;
+  }
+  .appt{
+      display: block;
+      margin-left: 25%;
+      margin-bottom: 5%;
+  }
+  /* contact section */
+  #follow h2{
+    display: none;
+  }
+  .hey{
+        text-decoration: underline;
+        color: #686868;
+        font-size: 18px;
+  }
+  #contact h2{
+      font-weight: lighter;
+      text-align: center;
+      margin-bottom: 15%;
+  }
+  #contact{
+      padding: 5%;
+  }
+  #reach{
+       display: flex;
 }
-
+    
+.imagine{
+    margin-right: 5%;
+}
 /* -------------------- desktop view ---------------------- */
 @media only screen and (min-width: 700px){
     .menu-icon{
@@ -23,7 +66,9 @@
 /* body section */
 body{
     font-family: 'Roboto', sans-serif;
-    color: #ffffff;
+    color: #e9e9e9;
+    margin: 0%;
+    background-color: black;
 }
 a{
     text-decoration: none;
@@ -35,6 +80,17 @@ a{
 button{
     cursor: pointer;
 }
+.more{
+    border-color: #3358DC;
+    border-radius: 7px;
+    border-width: 2px;
+    background-color: transparent;
+    color: #3358DC;
+    font-size: 25px;
+    width: 208px;
+    height: 60px;
+}
+
 /* navbar section */
 #navbar{
     background-color: #232323;
@@ -52,34 +108,61 @@ li{
     list-style-type: none;
 }
 /* statement section */
+#covid{
+    /* background-color: #Ff0000;
+    color: white;
+    width: 0px;
+    height: 0px;
+    border: 130px solid black;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent; */
+}
+#covid p{
+    font-size: 18px;
+}
+#cvd{
+    font-size: 24px;
+}
 #statement{
-    background-color: gray;
+    background-image: url(../images/home.png);    
+}
+.appt{
+    background-color: #3358DC;
+    color: white;
+    border-radius: 7px;
+    font-size: 18px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    width: 220px;
+    height: 55px;
+    border: none;
 }
 /* service section */
 #service{
- color: black;
+ 
 }
 #service a{
-    color: black;
+    
 }
 /* about section */
 #about{
-    color: black;
+    
 }
 /* review section */
 #review{
-    color: black;
+
 }
 /* article section */
 #article{
-    color: black;
+    
 }
 #article a{
-    color: black;
+    
 }
 /* contact section */
 #contact{
-    background-color: #4c4c4c;
+    background-color: #232323;
 }
 #contact button{
     background-color: transparent;
