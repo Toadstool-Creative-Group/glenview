@@ -8,7 +8,30 @@
     cursor: pointer;
     width: 30px;
     height: 25px;
-    margin-top: 15px;
+    margin: auto auto auto 5%;
+  }
+  .more{
+      display: block;
+      margin: auto;
+  }
+  .nav-links{
+      display: none;
+  }
+  #navbar{
+      padding: 5%;
+      display: flex;
+  }
+  #right{
+      display: flex;
+      margin: 7% 2% 5% 0%;
+  }
+  .logo{
+   
+  }
+  .logo img{
+      /* margin: auto; */
+      width: 96px;
+      height: 66px;
   }
   /* top section for landing page */
   #statement h1{
@@ -29,9 +52,30 @@
   }
   .appt{
       display: block;
-      margin-left: 25%;
+      text-align: center;
+      margin: auto;
       margin-bottom: 5%;
   }
+/* about section */
+  #about{
+    margin: 20% 10%;
+  }
+  #about a{
+      color: #3358DC;
+  }
+  #about p{
+      text-align: left;
+      font-size: 24px;
+      color: #929292;
+  }
+  #aboutname{
+      color: #ffffff;
+  }
+  #about img{
+      display: block;
+      margin: auto;
+  }
+
   /* contact section */
   #follow h2{
     display: none;
@@ -47,14 +91,19 @@
       margin-bottom: 15%;
   }
   #contact{
-      padding: 5%;
+      padding: 5% 5% 15% 5%;
   }
   #reach{
-       display: flex;
+    display: flex;     
 }
+    #contactPhone, #email, #address{
+        margin-right: 10%;
+    }
     
 .imagine{
-    margin-right: 5%;
+    margin-right: 9%;
+}
+
 }
 /* -------------------- desktop view ---------------------- */
 @media only screen and (min-width: 700px){
@@ -68,6 +117,7 @@ body{
     font-family: 'Roboto', sans-serif;
     color: #e9e9e9;
     margin: 0%;
+    padding: 0%;
     background-color: black;
 }
 a{
@@ -94,7 +144,7 @@ button{
 /* navbar section */
 #navbar{
     background-color: #232323;
-    display: flex;
+    /* display: flex; */
 }
 #navbar button{
     background-color: transparent;
@@ -108,8 +158,8 @@ li{
     list-style-type: none;
 }
 /* statement section */
-#covid{
-    /* background-color: #Ff0000;
+/* #covid{
+    background-color: #Ff0000;
     color: white;
     width: 0px;
     height: 0px;
@@ -117,8 +167,8 @@ li{
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    border-left-color: transparent; */
-}
+    border-left-color: transparent;
+} */
 #covid p{
     font-size: 18px;
 }
@@ -129,6 +179,7 @@ li{
     background-image: url(../images/home.png);    
 }
 .appt{
+    
     background-color: #3358DC;
     color: white;
     border-radius: 7px;
@@ -139,32 +190,32 @@ li{
     border: none;
 }
 /* service section */
-#service{
+/* #service{
  
 }
 #service a{
     
-}
+} */
 /* about section */
-#about{
+/* #about{
     
-}
+} */
 /* review section */
-#review{
+/* #review{
 
-}
+} */
 /* article section */
-#article{
+/* #article{
     
 }
 #article a{
     
-}
+} */
 /* contact section */
 #contact{
     background-color: #232323;
 }
 #contact button{
     background-color: transparent;
-    border: none
+    border: none;
 }
