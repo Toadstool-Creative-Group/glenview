@@ -13,6 +13,7 @@
   .more{
       display: block;
       margin: auto;
+      margin-top: 10%;
   }
   .nav-links{
       display: none;
@@ -56,6 +57,15 @@
       margin: auto;
       margin-bottom: 5%;
   }
+  /* services section */
+  #service{
+      margin: 20% 5%;
+  }
+  /* Testimonial section */
+  #review{
+      margin: 10% 5%;
+  }
+
 /* about section */
   #about{
     margin: 20% 10%;
@@ -75,6 +85,13 @@
       display: block;
       margin: auto;
   }
+  /* Article section */
+  #article{
+    margin: 20% 5%;
+    }
+    .carou{
+        display: flex;
+    }
 
   /* contact section */
   #follow h2{
@@ -95,14 +112,14 @@
   }
   #reach{
     display: flex;     
-}
+    }
     #contactPhone, #email, #address{
         margin-right: 10%;
     }
     
-.imagine{
+    .imagine{
     margin-right: 9%;
-}
+    }
 
 }
 /* -------------------- desktop view ---------------------- */
