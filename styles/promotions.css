@@ -1,6 +1,33 @@
+*{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
 /* mobile view */
 @media only screen and (max-width: 700px){
-   
+    #promo{
+        padding: 20px;
+    }
+   .title{
+       text-align: center;
+       margin-bottom: 45px;
+       padding-bottom: 25px;
+   }
+   h2{
+       margin-left: 5px;
+       margin-bottom: 40px;
+       line-height: 1.4;
+       letter-spacing: 0.8px;
+   }
+   p{
+       margin-left: 5px;
+       font-weight: 300;
+   }
+   .noticeMe{
+       font-size: large;
+       font-weight: 600;
+   }
+  
 }
 
 /* -------------------- desktop view ---------------------- */
@@ -10,4 +37,11 @@
 /* --------------------- outside media queries --------------- */
 #promo{
     background-color: #5e5e5e;
+}
+a{
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: #3358DC;
 }
