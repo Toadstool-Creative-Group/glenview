@@ -85,6 +85,9 @@
       display: block;
       margin: auto;
   }
+  #glen{
+      display: none;
+  }
   /* Article section */
   #article{
     margin: 20% 5%;
@@ -126,6 +129,46 @@
 @media only screen and (min-width: 700px){
     .menu-icon{
         display: none;
+    }
+    .more{
+        margin-top: 10%;
+    }
+    h1{
+        margin-bottom: 10%;
+    }
+    /* service section */
+    #service, #review, #article{
+        text-align: center;
+        margin: 10% 5%;
+    }
+    .carou{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    /* about section */
+    #about{
+        grid-template-areas: 
+        "pic glen"
+        "pic tex"
+        "pic tex";
+    }
+    #glenimg{
+        grid-area: pic;
+    }
+    #glen{
+        grid-area: glen;
+    }
+    #glenpar{
+        grid-area: tex;
+    }
+    #glena{
+        grid-area: tex;
+    }
+    /* review section */
+    
+    #review1, #review2, #review3{
+        margin: auto 7%;
+        font-size: 24px;
     }
 }
 /* --------------------- outside media queries --------------- */
