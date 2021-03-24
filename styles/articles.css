@@ -31,7 +31,21 @@
 
 /* -------------------- desktop view ---------------------- */
 @media only screen and (min-width: 700px){
-    
+    #eyearticle h1{
+        text-align: center;
+        padding-top: 50px;
+        margin-bottom: 35px;
+    }
+    #eyearticle{
+        padding: 50px 60px;
+    }
+    #eyearticle h2{
+        padding: 20px;
+    }
+    #eyearticle a{
+        margin-left: 20px;
+        line-height: 1.5;
+    }
 }
 /* --------------------- outside media queries --------------- */
 #eyearticle{
@@ -39,4 +53,7 @@
 }
 #eyearticle a {
     color: #000000;
+}
+#eyearticle a:hover{
+    text-decoration: underline;
 }
