@@ -136,6 +136,42 @@
     h1{
         margin-bottom: 10%;
     }
+    /* navbar */
+    #navbar{
+        display: flex;
+    }
+    .nav-links{
+        display: flex;
+        margin-left: 2%;
+        background-color: red;
+    }
+    #right{
+        display: flex;
+        margin-right: 2%;
+        margin-left: auto;
+        background-color: #3358DC;
+    }
+    /* statement section */
+    #statement{
+        padding-top: 1%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #statement h2{
+        text-align: center;
+        font-weight: lighter;
+        font-size: 72px;
+    }
+    #care{
+        text-align: center;
+        font-size: 50px;
+        margin: auto 20%;
+    }
+    #butt{
+        display: flex;
+        
+    }
+
     /* service section */
     #service, #review, #article{
         text-align: center;
