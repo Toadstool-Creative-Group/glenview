@@ -182,14 +182,16 @@
         justify-content: space-evenly;
     }
     /* about section */
-    #about{
+    /* #about{
         grid-template-areas: 
         "pic glen"
         "pic tex"
         "pic tex";
+        
     }
     #glenimg{
         grid-area: pic;
+        width: 400px;
     }
     #glen{
         grid-area: glen;
@@ -199,12 +201,26 @@
     }
     #glena{
         grid-area: tex;
-    }
+    } */
+    
     /* review section */
     
     #review1, #review2, #review3{
         margin: auto 7%;
         font-size: 24px;
+    }
+    /* bottom contact section */
+    .hey{
+        display: none;
+    }
+    #hid{
+        display: none;
+    }
+    #contact{
+        padding: 5% 10%;
+    }
+    #bottomheader{
+        text-transform: uppercase;
     }
 }
 /* --------------------- outside media queries --------------- */
