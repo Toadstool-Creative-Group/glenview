@@ -1,11 +1,75 @@
 /* mobile view */
 @media only screen and (max-width: 700px){
-   
+   .noticeMe{
+       font-size: 22px;
+   }
+   h1{
+       margin: 0px;
+       padding-top: 40px;
+   }
+   p.exams{
+       margin: 0;
+       padding: 20px;
+   }
+   p.types{
+       margin: 20px;
+   }
+   ul li{
+       line-height: 1.9;
+       margin-top: 10px;
+       margin-left: 20px;
+   }
+   h2{
+       margin: 20px 0;
+   }
+   #insurance, #payment{
+       margin: 0px;
+       padding: 20px;
+   }
 }
 
 /* -------------------- desktop view ---------------------- */
 @media only screen and (min-width: 700px){
-    
+    #serviceTop h1{
+        text-align: center;
+        padding-top: 50px;
+        margin-bottom: 35px;
+    } 
+    .types{
+        font-size: 20px;
+    }
+   
+    .button{
+       display: flex; 
+       justify-content: center; 
+       padding: 50px;
+       margin: 40px;
+    }
+    button{
+        margin: 20px;
+    }
+    .exams, ul{
+        margin-left: 50px;
+        padding: 20px 40px;
+    }
+    .exams{
+        padding-bottom: 40px;
+    }
+    ul li{
+        line-height: 2.5;
+    }
+    #insurance, #payment{
+        padding: 40px 38px;
+        margin-left: 50px;
+
+    }
+    h2{
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .noticeMe{
+        font-size: 24px;
+    }
 }
 /* --------------------- outside media queries --------------- */
 /* top section */
@@ -18,4 +82,10 @@
 /* bottom section */
 #serviceBottom{
     background-color: #5e5e5e;
+}
+h1{
+    text-align: center;
+}
+p.types{
+    text-align: center;
 }
