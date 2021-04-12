@@ -3,9 +3,10 @@
    .noticeMe{
        font-size: 22px;
    }
-   h1{
+   #serviceTop h2{
        margin: 0px;
        padding-top: 40px;
+       text-align: center;
    }
    p.exams{
        margin: 0;
@@ -13,6 +14,8 @@
    }
    p.types{
        margin: 20px;
+        text-align: center;
+    }
    }
    ul li{
        line-height: 1.9;
@@ -26,42 +29,44 @@
        margin: 0px;
        padding: 20px;
    }
-}
+
 
 /* -------------------- desktop view ---------------------- */
 @media only screen and (min-width: 700px){
-    #serviceTop h1{
-        text-align: center;
+    #serviceTop h2{
+        text-align: left;
         padding-top: 50px;
-        margin-bottom: 35px;
+        margin-bottom: 15px;
+        margin-left: 75px;
     } 
-    .types{
-        font-size: 20px;
+    p.types{
+        font-size: 15px;
+        margin-left: 75px;
+        justify-content: left;
     }
    
     .button{
        display: flex; 
        justify-content: center; 
-       padding: 50px;
+       padding: 0px;
        margin: 40px;
     }
     button{
-        margin: 20px;
-    }
-    .exams, ul{
-        margin-left: 50px;
-        padding: 20px 40px;
+        margin: 10px;
     }
     .exams{
-        padding-bottom: 40px;
+        margin: 0 40px;
+        padding: 10px 40px;
+    }
+    ul{
+        margin: 0 60px;
     }
     ul li{
         line-height: 2.5;
     }
-    #insurance, #payment{
-        padding: 40px 38px;
-        margin-left: 50px;
 
+    #insurance, #payment{
+        margin: 0 58px;
     }
     h2{
         margin: 0;
@@ -83,9 +88,4 @@
 #serviceBottom{
     background-color: #5e5e5e;
 }
-h1{
-    text-align: center;
-}
-p.types{
-    text-align: center;
-}
+
