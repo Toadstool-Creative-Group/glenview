@@ -144,23 +144,63 @@
         margin-bottom: 10%;
     }
     /* navbar */
+    .logo{
+        margin: 70px 0px 70px 62px;
+    }
     #navbar{
         display: flex;
+        z-index: 2;
+        padding-left: 20px;
     }
     .nav-links{
         display: flex;
-        margin-left: 2%;
-        background-color: red;
+    }
+    #navbar ul{
+        margin: 230px auto auto 58px;
+    }
+    #navbar ul li a{
+        font-size: 18px;
+        /* margin: 0; */
+        /* padding: 5px; */
+        background-color: #686868;
     }
     #right{
         display: flex;
         margin-right: 2%;
         margin-left: auto;
-        background-color: #3358DC;
+    }
+    li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover {
+        border-bottom: solid #3358DC 7px;
+        padding-bottom: 10px;
     }
     /* statement section */
+    #covid{
+        background-color: #FF0000;
+        padding: 4px;
+        max-width: 231px;
+        /* max-height: 500px; */
+        position: relative;
+    }
+    #covid:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 0 60px 235px;
+        border-color: transparent transparent #F8F8F8 transparent;
+      }
+     
     #statement{
-        padding-top: 1%;
+        /* padding-top: 1%; */
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -168,6 +208,7 @@
         text-align: center;
         font-weight: lighter;
         font-size: 72px;
+        margin-bottom: 20px;
     }
     #care{
         text-align: center;
@@ -176,7 +217,12 @@
     }
     #butt{
         display: flex;
-        
+        justify-content: center;
+        margin: 40px;
+        padding-bottom: 50px;
+    }
+    #butt button{
+        margin: 40px;
     }
 
     /* service section */
@@ -394,12 +440,13 @@ li{
     border-bottom-color: transparent;
     border-left-color: transparent;
 } */
-#covid p{
-    font-size: 18px;
-}
 #cvd{
     font-size: 24px;
 }
+#rule{ 
+    font-size: 18px;
+}
+
 #statement{
     background-image: url(../images/home.png);    
 }
