@@ -1,0 +1,46 @@
+/* mobile view */
+@media only screen and (max-width: 700px){
+body{
+    margin: 20px;
+    line-height: 1.4;
+}
+h3.all-caps{
+    margin-top: 10px;
+}
+p{
+    margin: 8px 0;
+}
+ul{
+    margin-left: 20px;
+}
+li{
+    list-style-type: disc;
+}
+}
+
+/* -------------------- desktop view ---------------------- */
+@media only screen and (min-width: 700px){
+
+body{
+    margin: 50px;
+    line-height: 1.4;
+}
+
+h3.all-caps{
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+p{
+    margin: 15px 0px;
+
+}
+ul{
+    margin-left: 45px;
+}
+li{
+    list-style-type: disc;
+}
+
+}
+
