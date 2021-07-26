@@ -1,15 +1,20 @@
+/* * {
+    border: 1px solid red;
+} */
+
 /* mobile view */
 @media only screen and (max-width: 700px){
     .promo-container{
         /* display: flex; */
-        padding: 20px;
+        padding: 20px 0;
+        margin: 20px 0;
     }
     #promo{
         padding: 20px;
     }
    h1.title{
        text-align: center;
-       margin-bottom: 5px;
+       margin-bottom: 35px;
        padding-bottom: 25px;
    }
    h2{
@@ -21,8 +26,14 @@
    p{
        margin-left: 5px;
        font-weight: 300;
-       margin-bottom: 10px;
+       margin-bottom: 24px;
+       margin-top: 24px;
    }
+
+   .paragraph{
+       width: 100%;
+   }
+
    .noticeMe{
        font-size: large;
        font-weight: 600;
@@ -40,35 +51,48 @@
     .promo-container{
         display: flex;
         padding: 20px;
-        margin: 20px;
+        margin: 95px 15px;
+        width: 100%;
+        height: auto;
     }
     #promo{
-        padding: 40px;
-        flex: 2;
+        margin-left: 24px;
+        padding: 0px;
+        flex: 3;
      }
     h1.title{
         text-align: left;
         margin-bottom: 20px;
     }
     #promo h2{
-        padding: 30px 0;
+        padding: 10px 0;
         margin: 0;
     }
     .noticeMe{
         font-size: larger;
         font-weight: 600;
     }
-    p{
+    
+    #promo p {
         line-height: 1;
-        padding-left: 2px;
+        margin-right: 60px;
+        padding-right: 20px;
+        margin-top: 24px;        
+    }
+
+    .paragraph{
+        margin-right: 32px;
+        padding-right: 24px; 
+        width: 50%;       
     }
     .school img{
-        width: 300px;
-        height: 300px;
-        margin-top: 50px;
+        width: 275px;
+        height: 275px;
+        margin-right: 70px;
     }
     .school{
         flex: 1;
+        margin-right: 40px;
     }
 }
 /* --------------------- outside media queries --------------- */
