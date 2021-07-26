@@ -296,36 +296,57 @@
         grid-row: 2/3;
         grid-column: 1/2;
         display: grid;
+        margin-bottom: 50px;
     }
     #contactPhone img {
         grid-row: 1/3;
         grid-column: 1/2;
+        margin-top: 10px;
+        margin-right: -50px;
     }
     #contactPhone p{
         grid-row: 1/2;
         grid-column: 2/3;
+        font-size: 25px;
     }
     #tellie{
         grid-row: 2/3;
         grid-column: 2/3;
+        margin-top: -20px;
+        font-size: 25px;
+    }
+    .empty{
+        grid-row: 1/3;
+        grid-column: 3/10;
     }
     /* bottom email */
     #email{
         grid-row: 3/4;
         grid-column: 1/2;
         display: grid;
+        margin-bottom: 100px;
+        margin-top: 100px;
     }
     #email img{
         grid-row: 1/3;
         grid-column: 1/2;
+        margin-top: 10px;
+        margin-right: -40px;
     }
     #email p{
         grid-row: 1/2;
         grid-column: 2/3;
+        font-size: 25px;
     }
     #ema{
         grid-row: 2/3;
         grid-column: 2/3;
+        margin-top: -20px;
+        font-size: 25px;
+    }
+    .empty{
+        grid-row: 1/3;
+        grid-column: 3/10;
     }
     /* bottom address */
     #address{
@@ -336,17 +357,27 @@
     #address img{
         grid-row: 1/3;
         grid-column: 1/2;
+        margin-top: -20px;
+        margin-right: -5px;
     }
     #address p{
         grid-row: 1/2;
         grid-column: 2/3;
+        font-size: 25px;
+        margin-bottom: 10px;
+        margin-top: 20px;
     }
     #add{
         grid-row: 2/3;
         grid-column: 2/3;
+        font-size: 25px;
     }
     .tel2{
         text-decoration: underline;
+    }
+    .empty{
+        grid-row: 1/3;
+        grid-column: 3/10;
     }
     /* bottom hours */
     #bottomhours{
@@ -354,13 +385,13 @@
         grid-row: 1/2;
         grid-column: 2/3;
         font-weight: lighter;
-
     }
     #open{
         grid-row: 2/5;
         grid-column: 2/3;
         font-size: 24px;
         text-align: left;
+        margin-top: -30px;
     }
     td{
         padding-left: 30px;
