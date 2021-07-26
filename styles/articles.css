@@ -1,32 +1,38 @@
-*{
-    box-sizing: border-box;
-    /* border: 1px solid red; */
-    margin: 0;
-    padding: 0;
-}
+/* *{
+   
+    border: 1px solid red;
+} */
 
 /* mobile view */
 @media only screen and (max-width: 700px){
     #eyearticle{
-        padding: 10px;
+        margin: 0px;
+        padding: 15px;
        }
    #eyearticle h1{
        text-align: center;
        padding-bottom: 10px;
-       margin: 40px 0;
+       margin: 40px 10px;
    }
    #eyearticle h2{
        margin-left: 15px;
-       padding: 15px 0;
+       padding: 15px 10px;
    }
    #eyearticle a{
-       margin-left: 15px;
        font-weight: bold;
-       line-height: 1.8;
+       line-height: 1.6;
+       flex-wrap: wrap;
+       margin: 0;
+
    }
-   ul{
-       margin-bottom: 25px;
+   #eyearticle ul{
+       margin: 0 25px 25px 25px;
+       text-align: left;
+       width: auto;
    }
+#eyearticle li{
+    margin: 5px 0;
+}
 }
 
 /* -------------------- desktop view ---------------------- */
@@ -37,14 +43,20 @@
         margin-bottom: 35px;
     }
     #eyearticle{
-        padding: 50px 60px;
+        margin: 0;
+        padding: 20px 20px;
     }
     #eyearticle h2{
-        padding: 20px;
+        padding: 10px 20px 0px;
+        /* margin-bottom: -5px; */
+    }
+    #eyearticle ul{
+        margin: 0 15px 0px 20px;
     }
     #eyearticle a{
         margin-left: 20px;
         line-height: 1.5;
+        text-align: left;
     }
 }
 /* --------------------- outside media queries --------------- */
