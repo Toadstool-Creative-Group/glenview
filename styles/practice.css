@@ -1,0 +1,72 @@
+/* this is for the about/our practice page */
+/* mobile view */
+@media only screen and (max-width: 700px){
+#practiceTop, #practiceBottom{
+    padding: 20px;   
+}
+.title{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#anterior h3, #canon h3, #oculus h3, #eyeglass h3, #photoc h3{
+    margin: 20px 0;
+    word-spacing: 5px;
+}
+#anterior, #canon, #oculus{
+    margin-bottom: 40px;
+}
+#practiceTop p, #practiceBottom p{
+    margin-bottom: 15px;
+}
+#practiceBottom {
+    padding-bottom: 40px;
+}
+
+}
+/* -------------------desktop view----------- */
+@media only screen and (min-width: 700px){
+    #practiceTop, #practiceBottom{
+        padding: 75px;       
+    }
+    h2{ 
+        margin: 0;
+    }
+    .title{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    #anterior h3, #canon h3, #oculus h3, #eyeglass h3, #photoc h3{
+        margin: 30px 0;
+        word-spacing: 5px;
+    }
+    #anterior, #canon, #oculus{
+        margin-bottom: 50px;
+    }
+    #practiceTop p, #practiceBottom p{
+        margin-bottom: 25px;
+    }
+    #practiceBottom {
+        padding-bottom: 50px;
+    }
+    
+    #filler img{
+        width: 400px;
+    }
+}
+/* ---------------------outside media queries--------- */
+/* top section */
+#practiceTop{
+    background-color: #5e5e5e;
+}
+#practiceTop a{
+   color: #000000; 
+}
+/* bottom section */
+#practiceBottom{
+    background-color: #5e5e5e;
+}
+#practiceBottom a{
+    color: #000000;
+}
