@@ -26,9 +26,13 @@ body{
     line-height: 1.4;
 }
 
+#privacy{
+    margin: auto;
+}
+
 h3.all-caps{
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 p{
@@ -44,3 +48,8 @@ li{
 
 }
 
+/* --------------------- outside media queries --------------- */
+/* top section */
+body{
+    background-color: #5e5e5e;
+}
