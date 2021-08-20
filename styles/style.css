@@ -17,6 +17,77 @@
     height: 25px;
     margin: auto auto auto 5%;
   }
+/* testing modal */
+  .modal {
+    display: none; /* Hidden by default */
+    position: absolute;
+    z-index: 1; /*Sit on top*/
+    padding-top: 192px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /*Enable scroll if needed*/
+    /* background-color: rgb(0,0,0); Fallback color */
+    /* background-color: rgba(0,0,0,0.4); Black w/ opacity */
+    border-radius: 10px;
+  }
+    
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #3358DC;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    border-radius: 10px;
+    font-size: 24px;
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal-header {   
+    color: white;
+  }
+  li a{
+      display: flex;
+  }
+  .darkblue{
+      background-color: #3358DC;
+      /* padding: 50px; */
+  }
+  .lightblue{
+      background-color: #538EC3;
+  }
   .more{
       display: block;
       margin: auto;
@@ -40,6 +111,7 @@
       /* margin: auto; */
       width: 96px;
       height: 66px;
+      /* margin-right: 50px; */
   }
   #imagehours{
       display: none;
@@ -139,6 +211,9 @@
 /* -------------------- desktop view ---------------------- */
 @media only screen and (min-width: 1000px){
     .menu-icon{
+        display: none;
+    }
+    #myModal{
         display: none;
     }
     .more{
