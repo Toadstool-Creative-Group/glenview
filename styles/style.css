@@ -1,23 +1,25 @@
-*{
-    /* border: 1px solid red; */
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* mobile view */
-@media only screen and (max-width: 1000px){
-   #hourTable, .gout, .tel{
-       display: none;
-   }
-   .menu-icon{
+@media only screen and (max-width: 1000px) {
+  #hourTable,
+  .gout,
+  .tel {
+    display: none;
+  }
+  .menu-icon {
     display: block;
     cursor: pointer;
     width: 30px;
     height: 25px;
     margin: auto auto auto 5%;
   }
-/* testing modal */
+  /* testing modal */
   .modal {
     display: none; /* Hidden by default */
     position: absolute;
@@ -32,16 +34,16 @@
     /* background-color: rgba(0,0,0,0.4); Black w/ opacity */
     border-radius: 10px;
   }
-    
+
   /* Modal Content */
   .modal-content {
     position: relative;
     background-color: #fefefe;
     margin: auto;
     padding: 0;
-    border: 1px solid #3358DC;
+    border: 1px solid #3358dc;
     width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -49,18 +51,30 @@
     border-radius: 10px;
     font-size: 24px;
   }
-  
+
   /* Add Animation */
   @-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1}
+    from {
+      top: -300px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
   }
-  
+
   @keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
+    from {
+      top: -300px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
   }
-  
+
   /* The Close Button */
   .close {
     color: white;
@@ -68,557 +82,565 @@
     font-size: 28px;
     font-weight: bold;
   }
-  
+
   .close:hover,
   .close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
   }
-  .modal-header {   
+  .modal-header {
     color: white;
   }
-  li a{
-      display: flex;
+  li a {
+    display: flex;
   }
-  .darkblue{
-      background-color: #3358DC;
-      /* padding: 50px; */
+  .darkblue {
+    background-color: #3358dc;
+    /* padding: 50px; */
   }
-  .lightblue{
-      background-color: #538EC3;
+  .lightblue {
+    background-color: #538ec3;
   }
-  .more{
-      display: block;
-      margin: auto;
-      margin-top: 10%;
+  .more {
+    display: block;
+    margin: auto;
+    margin-top: 10%;
   }
-  .nav-links{
-      display: none;
+  .nav-links {
+    display: none;
   }
-  #navbar{
-      padding: 5%;
-      display: flex;
+  #navbar {
+    padding: 5%;
+    display: flex;
   }
-  #right{
-      display: flex;
-      margin: 7% 2% 5% 0%;
+  #right {
+    display: flex;
+    margin: 7% 2% 5% 0%;
   }
   /* .logo{
    
   } */
-  .logo img{
-      /* margin: auto; */
-      width: 96px;
-      height: 66px;
-      /* margin-right: 50px; */
+  .logo img {
+    /* margin: auto; */
+    width: 96px;
+    height: 66px;
+    /* margin-right: 50px; */
   }
-  #imagehours{
-      display: none;
+  #imagehours {
+    display: none;
   }
 
   /* top section for landing page */
-  #statement h1{
+  #statement h1 {
     font-weight: lighter;
     text-align: center;
     font-size: 50px;
   }
-  #care{
-      font-size: 24px;
-      text-align: center;
-      margin-bottom: 25%;
-      margin-top: 20%;
+  #care {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 25%;
+    margin-top: 20%;
   }
-  #statement{
-      background-repeat: no-repeat;
-      background-size: cover;
-      padding: 5% 10% 20% 10%;
+  #statement {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 10% 20% 10%;
   }
-  .appt{
-      display: block;
-      text-align: center;
-      margin: auto;
-      margin-bottom: 5%;
+  .appt {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5%;
   }
   /* services section */
-  #service{
-      margin: 20% 5%;
+  #service {
+    margin: 20% 5%;
   }
   /* Testimonial section */
-  #review{
-      margin: 10% 5%;
+  #review {
+    margin: 10% 5%;
   }
 
-/* about section */
-  #about{
+  /* about section */
+  #about {
     margin: 20% 10%;
   }
-  #about a{
-      color: #3358DC;
+  #about a {
+    color: #3358dc;
   }
-  #about p{
-      text-align: left;
-      font-size: 24px;
-      color: #929292;
+  #about p {
+    text-align: left;
+    font-size: 24px;
+    color: #929292;
   }
-  #aboutname{
-      color: #ffffff;
+  #aboutname {
+    color: #ffffff;
   }
-  #about img{
-      display: block;
-      margin: auto;
+  #about img {
+    display: block;
+    margin: auto;
   }
-  #glen{
-      display: none;
-  }
-  /* Article section */
-  #article{
-    margin: 20% 5%;
-    }
-    .carou{
-        display: flex;
-    }
-
-  /* contact section */
-  #follow h2{
+  #glen {
     display: none;
   }
-  .hey{
-        text-decoration: underline;
-        color: #686868;
-        font-size: 18px;
+  /* Article section */
+  #article {
+    margin: 20% 5%;
   }
-  #contact h2{
-      font-weight: lighter;
-      text-align: center;
-      margin-bottom: 15%;
+  .carou {
+    display: flex;
   }
-  #contact{
-      padding: 5% 5% 15% 5%;
-  }
-  #reach{
-    display: flex;     
-    }
-    #contactPhone, #email, #address{
-        margin-right: 10%;
-    }
-    
-    .imagine{
-    margin-right: 9%;
-    }
 
+  /* contact section */
+  #follow h2 {
+    display: none;
+  }
+  .hey {
+    text-decoration: underline;
+    color: #686868;
+    font-size: 18px;
+  }
+  #contact h2 {
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 15%;
+  }
+  #contact {
+    padding: 5% 5% 15% 5%;
+  }
+  #reach {
+    display: flex;
+  }
+  #contactPhone,
+  #email,
+  #address {
+    margin-right: 10%;
+  }
+
+  .imagine {
+    margin-right: 9%;
+  }
 }
 /* -------------------- desktop view ---------------------- */
-@media only screen and (min-width: 1000px){
-    .menu-icon{
-        display: none;
-    }
-    #myModal{
-        display: none;
-    }
-    .more{
-        margin-top: 10%;
-    }
-    h1{
-        margin-bottom: 10%;
-    }
-    /* navbar */
-    .logo{
-        margin: 70px 0px 70px 62px;
-    }
-    .current{
-        border-bottom: solid #3358DC 7px;
-        padding-bottom: 10px;
-    }
-    #navbar{
-        display: flex;
-        z-index: 2;
-        padding-left: 20px;
-    }
-    .nav-links{
-        display: flex;
-    }
-    #navbar ul{
-        margin: 230px auto auto 58px;
-    }
-    #navbar ul li a{
-        font-size: 24px;
-        margin-left: 60px;
-    }
-    #right{
-        display: flex;
-        margin-right: 2%;
-        /* margin-left: auto; */
-        margin-top: 50px;
-    }
-    /* for phone on navbar */
-    #phone{
-        display: grid;
-        margin-right: 100px;
-    }
-    #imagephone{
-        grid-column: 1/2;
-        grid-row: 1/3;
-        margin-right: 25px;
-    }
-    #call{
-        grid-column: 2/3;
-        grid-row: 1/2;
-        font-size: 24px;
-        margin-top: -10px;
-    }
-    #telephone{
-        grid-column: 2/3;
-        grid-row: 2/3;
-        margin-top: -100px;
-        margin-bottom: auto;
-        font-size: 24px;
-        text-decoration: underline;
-    }
-    /* office hours on nav bar */
-    #mobileimagehours{
-        display: none;
-    }
-    #hours{
-        display: grid;
-    }
-    #imagehours{
-        grid-column: 1/2;
-        grid-row: 1/3;
-        margin-right: 25px;
-    }
-    #officehours{
-        grid-column: 2/3;
-        grid-row: 1/2;
-        font-size: 24px;
-        margin-top: -10px;
-    }
-    #hourTable{
-        grid-column: 2/3;
-        grid-row: 2/3;
-        font-size: 24px;
-        line-height: 5px;
-        margin-bottom: 40px;
-    }
-    #hourTable th{
-        font-weight: lighter;
-        text-align: left;
-    }
+@media only screen and (min-width: 1000px) {
+  .menu-icon {
+    display: none;
+  }
+  #myModal {
+    display: none;
+  }
+  .more {
+    margin-top: 10%;
+  }
+  h1 {
+    margin-bottom: 10%;
+  }
+  /* navbar */
+  .logo {
+    /* margin: 70px 0px 70px 62px; */
+    margin: 1em;
+  }
+  .logo img {
+    width: 9em;
+  }
+  .current {
+    border-bottom: solid #3358dc 7px;
+    /* padding-bottom: 1em; */
+  }
+  #navbar {
+    display: flex;
+    z-index: 2;
+    padding-left: 1em;
+  }
+  .nav-links {
+    display: flex;
+  }
+  #navbar ul {
+    margin: 10.5em auto auto auto;
+  }
+  #navbar ul li a {
+    font-size: 1em;
+    margin-left: 1.5em;
+  }
+  #right {
+    display: flex;
+    margin-right: 1em;
+    /* margin-left: auto; */
+    margin-top: 50px;
+  }
+  /* for phone on navbar */
+  #phone {
+    display: grid;
+    margin-right: 1em;
+  }
+  #imagephone {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-right: 1em;
+  }
+  #call {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 1em;
+    margin-top: -10px;
+  }
+  #telephone {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: -100px;
+    margin-bottom: auto;
+    font-size: 1em;
+    text-decoration: underline;
+  }
+  /* office hours on nav bar */
+  #mobileimagehours {
+    display: none;
+  }
+  #hours {
+    display: grid;
+  }
+  #imagehours {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-right: 1em;
+  }
+  #officehours {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 1em;
+    margin-top: -10px;
+  }
+  #hourTable {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 1em;
+    line-height: 0em;
+    margin-bottom: 1em;
+  }
+  #hourTable th {
+    font-weight: lighter;
+    text-align: left;
+  }
 
-    li a {
-        display: block;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    li a:hover {
-        border-bottom: solid #3358DC 7px;
-        padding-bottom: 10px;
-    }
-    /* statement section */
-    #covid{
-        /* background-color: #FF0000; */
-        /* padding: 4px; */
-        /* max-width: 231px; */
-        /* max-height: 500px; */
-       position: relative;
-       /* color: #FFF; */
-       font-weight: 600;
-       font-size: 24px;
-       /* white-space: nowrap; */
-       width: 0;
-       height: 0;
-       border-top: 120px solid #FF0000;
-       border-right: 500px solid transparent;
-    }
-    #cvd{
-        position: absolute;
-        padding-left: 25px;
-        bottom: 80px;
-        white-space: nowrap;
-    }
-    #rule{
-        position: absolute;
-        padding-left: 25px;
-        bottom: 40px;
-    }
-    
-    #statement{
-        /* padding-top: 1%; */
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    #statement h2{
-        text-align: center;
-        font-weight: lighter;
-        font-size: 72px;
-        margin-bottom: 20px;
-    }
-    #care{
-        text-align: center;
-        font-size: 50px;
-        margin: auto 20%;
-    }
-    #butt{
-        display: flex;
-        justify-content: center;
-        margin: 40px;
-        padding-bottom: 50px;
-    }
-    #butt button{
-        margin: 40px;
-    }
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    border-bottom: solid #3358dc 7px;
+    padding-bottom: 10px;
+  }
+  /* statement section */
+  #covid {
+    /* background-color: #FF0000; */
+    /* padding: 4px; */
+    /* max-width: 231px; */
+    /* max-height: 500px; */
+    position: relative;
+    /* color: #FFF; */
+    font-weight: 600;
+    font-size: 24px;
+    /* white-space: nowrap; */
+    width: 0;
+    height: 0;
+    border-top: 120px solid #ff0000;
+    border-right: 500px solid transparent;
+  }
+  #cvd {
+    position: absolute;
+    padding-left: 25px;
+    bottom: 80px;
+    white-space: nowrap;
+  }
+  #rule {
+    position: absolute;
+    padding-left: 25px;
+    bottom: 40px;
+  }
 
-    /* service section */
-    #service, #review, #article{
-        text-align: center;
-        margin: 10% 5%;
-    }
-    .carou{
-        display: flex;
-        justify-content: space-evenly;
-    }
-    /* about section */
-    #about{
-        display: grid;
-        margin: 20% 5%;
-    }
-    #glenimg{
-        width: 500px;
-        grid-row: 1/4;
-        grid-column: 1/2;
-        margin-left: 10%;
-    }
-    #glen{
-        font-size: 50px;
-        font-weight: lighter;
-        margin: 5% 10% 0% 20%;
-    }
-    #glenpar{
-        font-size: 24px;
-        text-align: left;
-        grid-row: 2/3;
-        margin: 0% 10% 0% 20%;
-    }
-    
-    #glena{
-        grid-row: 3/4; 
-         grid-column: 2/3;
-         font-size: 24px;
-         margin: 0% 10% 0% 20%;
-         color: #a9a9a9;
-    }
-    /* review section */
-    
-    #review1, #review2, #review3{
-        margin: auto 7%;
-        font-size: 24px;
-    }
-    /* bottom contact section */
-    h2 {
-        margin-bottom: 100px;
-    }
-    .hey{
-        display: none;
-    }
-    #hid{
-        display: none;
-    }
-    #contact{
-        padding: 5% 10%;
-        display: grid;
-    }
-    #bottomheader{
-        text-transform: uppercase;
-        font-weight: lighter;
-        font-size: 50px;
-        grid-row: 1/2;
-        grid-column: 1/2;
-    }
-    /* bottom phone */
-    #contactPhone{
-        grid-row: 2/3;
-        grid-column: 1/2;
-        display: grid;
-        margin-bottom: 50px;
-    }
-    #contactPhone img {
-        grid-row: 1/3;
-        grid-column: 1/2;
-        margin-top: 10px;
-        margin-right: -50px;
-    }
-    #contactPhone p{
-        grid-row: 1/2;
-        grid-column: 2/3;
-        font-size: 25px;
-    }
-    #tellie{
-        grid-row: 2/3;
-        grid-column: 2/3;
-        margin-top: -20px;
-        font-size: 25px;
-    }
-    .empty{
-        grid-row: 1/3;
-        grid-column: 3/10;
-    }
-    /* bottom email */
-    #email{
-        grid-row: 3/4;
-        grid-column: 1/2;
-        display: grid;
-        margin-bottom: 100px;
-        margin-top: 100px;
-    }
-    #email img{
-        grid-row: 1/3;
-        grid-column: 1/2;
-        margin-top: 10px;
-        margin-right: -40px;
-    }
-    #email p{
-        grid-row: 1/2;
-        grid-column: 2/3;
-        font-size: 25px;
-    }
-    #ema{
-        grid-row: 2/3;
-        grid-column: 2/3;
-        margin-top: -20px;
-        font-size: 25px;
-    }
-    .empty{
-        grid-row: 1/3;
-        grid-column: 3/10;
-    }
-    /* bottom address */
-    #address{
-        grid-row: 4/5;
-        grid-column: 1/2;
-        display: grid;
-    }
-    #address img{
-        grid-row: 1/3;
-        grid-column: 1/2;
-        margin-top: -20px;
-        margin-right: -5px;
-    }
-    #address p{
-        grid-row: 1/2;
-        grid-column: 2/3;
-        font-size: 25px;
-        margin-bottom: 10px;
-        margin-top: 20px;
-    }
-    #add{
-        grid-row: 2/3;
-        grid-column: 2/3;
-        font-size: 25px;
-    }
-    .tel2{
-        text-decoration: underline;
-    }
-    .empty{
-        grid-row: 1/3;
-        grid-column: 3/10;
-    }
-    /* bottom hours */
-    #bottomhours{
-        font-size: 50px;
-        grid-row: 1/2;
-        grid-column: 2/3;
-        font-weight: lighter;
-    }
-    #open{
-        grid-row: 2/5;
-        grid-column: 2/3;
-        font-size: 24px;
-        text-align: left;
-        margin-top: -30px;
-    }
-    td{
-        padding-left: 30px;
-        padding-top: 30px;
-    }
-    th{
-        padding-top: 30px;
-    }
-    /* bottomsocial */
-    #bottomsoc{
-        font-size: 50px;
-        grid-row: 1/2;
-        grid-column: 3/4;
-        font-weight: lighter;
+  #statement {
+    /* padding-top: 1%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #statement h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 72px;
+    margin-bottom: 20px;
+  }
+  #care {
+    text-align: center;
+    font-size: 50px;
+    margin: auto 20%;
+  }
+  #butt {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    padding-bottom: 50px;
+  }
+  #butt button {
+    margin: 40px;
+  }
 
-    }
-    #follow{
-        grid-row: 2/5;
-        grid-column: 3/4;
-    }
-    #fb{
-        margin-left: 5%;
-    }
+  /* service section */
+  #service,
+  #review,
+  #article {
+    text-align: center;
+    margin: 10% 5%;
+  }
+  .carou {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  /* about section */
+  #about {
+    display: grid;
+    margin: 20% 5%;
+  }
+  #glenimg {
+    width: 500px;
+    grid-row: 1/4;
+    grid-column: 1/2;
+    margin-left: 10%;
+  }
+  #glen {
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 5% 10% 0% 20%;
+  }
+  #glenpar {
+    font-size: 24px;
+    text-align: left;
+    grid-row: 2/3;
+    margin: 0% 10% 0% 20%;
+  }
+
+  #glena {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    font-size: 24px;
+    margin: 0% 10% 0% 20%;
+    color: #a9a9a9;
+  }
+  /* review section */
+
+  #review1,
+  #review2,
+  #review3 {
+    margin: auto 7%;
+    font-size: 24px;
+  }
+  /* bottom contact section */
+  h2 {
+    margin-bottom: 100px;
+  }
+  .hey {
+    display: none;
+  }
+  #hid {
+    display: none;
+  }
+  #contact {
+    padding: 5% 10%;
+    display: grid;
+  }
+  #bottomheader {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 50px;
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  /* bottom phone */
+  #contactPhone {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    display: grid;
+    margin-bottom: 50px;
+  }
+  #contactPhone img {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    margin-top: 10px;
+    margin-right: -50px;
+  }
+  #contactPhone p {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size: 25px;
+  }
+  #tellie {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-top: -20px;
+    font-size: 25px;
+  }
+  .empty {
+    grid-row: 1/3;
+    grid-column: 3/10;
+  }
+  /* bottom email */
+  #email {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    display: grid;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  #email img {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    margin-top: 10px;
+    margin-right: -40px;
+  }
+  #email p {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size: 25px;
+  }
+  #ema {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-top: -20px;
+    font-size: 25px;
+  }
+  .empty {
+    grid-row: 1/3;
+    grid-column: 3/10;
+  }
+  /* bottom address */
+  #address {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    display: grid;
+  }
+  #address img {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    margin-top: -20px;
+    margin-right: -5px;
+  }
+  #address p {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  #add {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-size: 25px;
+  }
+  .tel2 {
+    text-decoration: underline;
+  }
+  .empty {
+    grid-row: 1/3;
+    grid-column: 3/10;
+  }
+  /* bottom hours */
+  #bottomhours {
+    font-size: 50px;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-weight: lighter;
+  }
+  #open {
+    grid-row: 2/5;
+    grid-column: 2/3;
+    font-size: 24px;
+    text-align: left;
+    margin-top: -30px;
+  }
+  td {
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  th {
+    padding-top: 30px;
+  }
+  /* bottomsocial */
+  #bottomsoc {
+    font-size: 50px;
+    grid-row: 1/2;
+    grid-column: 3/4;
+    font-weight: lighter;
+  }
+  #follow {
+    grid-row: 2/5;
+    grid-column: 3/4;
+  }
+  #fb {
+    margin-left: 5%;
+  }
 }
 /* --------------------- outside media queries --------------- */
 /* body section */
-body{
-    font-family: 'Roboto', sans-serif;
-    color: #e9e9e9;
-    margin: 0%;
-    padding: 0%;
-    background-color: black;
+body {
+  font-family: "Roboto", sans-serif;
+  color: #e9e9e9;
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
 }
-.primary{
-    background-color: #3358DC;
-    color: white;
-    border-radius: 7px;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
-    border: none;
+.primary {
+  background-color: #3358dc;
+  color: white;
+  border-radius: 7px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+  border: none;
 }
-.secondary{
-    background-color: transparent;
-    color: white;
-    border-radius: 7px;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
-    border: 3px solid #3358DC;
+.secondary {
+  background-color: transparent;
+  color: white;
+  border-radius: 7px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+  border: 3px solid #3358dc;
 }
-a{
-    text-decoration: none;
-    color: #ffffff;
+a {
+  text-decoration: none;
+  color: #ffffff;
 }
-.gout{
-    color: #6d6d6d;
+.gout {
+  color: #6d6d6d;
 }
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
-.more{
-    border-color: #3358DC;
-    border-radius: 7px;
-    border-width: 2px;
-    background-color: transparent;
-    color: #3358DC;
-    font-size: 25px;
-    width: 208px;
-    height: 60px;
+.more {
+  border-color: #3358dc;
+  border-radius: 7px;
+  border-width: 2px;
+  background-color: transparent;
+  color: #3358dc;
+  font-size: 25px;
+  width: 208px;
+  height: 60px;
 }
 
 /* navbar section */
-#navbar{
-    background-color: #232323;
-    /* display: flex; */
+#navbar {
+  background-color: #232323;
+  /* display: flex; */
 }
-#navbar button{
-    background-color: transparent;
-    border: none;
+#navbar button {
+  background-color: transparent;
+  border: none;
 }
-#navbar ul li a{
-    color: #ffffff;
-    text-decoration: none;
+#navbar ul li a {
+  color: #ffffff;
+  text-decoration: none;
 }
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
 /* statement section */
 /* #covid{
@@ -632,26 +654,25 @@ li{
     border-bottom-color: transparent;
     border-left-color: transparent;
 } */
-#cvd{
-    font-size: 24px;
+#cvd {
+  font-size: 24px;
 }
-#rule{ 
-    font-size: 18px;
+#rule {
+  font-size: 18px;
 }
 
-#statement{
-    background-image: url(../images/home.png);    
+#statement {
+  background-image: url(../images/home.png);
 }
-.appt{
-    
-    /* background-color: #3358DC; */
-    color: white;
-    border-radius: 7px;
-    font-size: 18px;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
-    width: 220px;
-    height: 55px;
-    /* border: none; */
+.appt {
+  /* background-color: #3358DC; */
+  color: white;
+  border-radius: 7px;
+  font-size: 18px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+  width: 220px;
+  height: 55px;
+  /* border: none; */
 }
 /* service section */
 /* #service{
@@ -676,10 +697,10 @@ li{
     
 } */
 /* contact section */
-#contact{
-    background-color: #232323;
+#contact {
+  background-color: #232323;
 }
-#contact button{
-    background-color: transparent;
-    border: none;
+#contact button {
+  background-color: transparent;
+  border: none;
 }

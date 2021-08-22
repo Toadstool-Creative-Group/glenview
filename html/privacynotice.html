@@ -11,6 +11,87 @@
     <link rel="stylesheet" href="../styles/privacynotice.css">
 </head>
 <body>
+    <!-- this is the navbar section, contains links to other pages, office hours and contact info. in mobile view it will have hamburger menu -->
+    <div id="navbar">
+        <!-- modal for now -->
+        <img src="../images/menu.png" alt="Menu" class="menu-icon" id="myBtn">
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+              </div>
+              <div class="modal-body">
+                  <div class="darkblue">
+                    <li><a href="./service.html">
+                        <img src="../images/services.png" alt="Services Page" class="modal-image">
+                        <p>Services</p>
+                        <p class="arrow">></p>
+                    </a></li>
+                  </div>
+                  <div class="lightblue">
+                    <li><a href="./practice.html">
+                        <img src="../images/ourpractice.png" alt="OurPractice Page" class="modal-image">
+                        <p>Our Practice</p>
+                        <p class="arrow">></p>
+                    </a></li>
+                  </div> 
+                  <div class="darkblue">
+                    <li><a href="./about.html">
+                        <img src="../images/ourteam.png" alt="AboutUs Page" class="modal-image">
+                        <p>About Us</p>
+                        <p class="arrow">></p>
+                    </a></li>
+                  </div>  
+                  <div class="lightblue">
+                    <li><a href="./articles.html">
+                        <img src="../images/articles.png" alt="Articles Page" class="modal-image">
+                        <p>Articles</p>
+                        <p class="arrow">></p>
+                    </a></li>
+                </div> 
+                <div class="darkblue">
+                    <li><a href="./promotions.html">
+                        <img src="../images/promotions.png" alt="Promtions Page" class="modal-image">
+                        <p>Promotions</p>
+                        <p class="arrow">></p>
+                    </a></li>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="logo"><img src="../images/glenview.png" alt="Logo"></div>
+        <ul id="Navigation">
+            <div class="nav-links">
+              <li><a href="./index.html" class="current">Home</a></li>
+              <li><a href="./service.html">Services</a></li>
+              <li><a href="./practice.html">Our Practice</a></li>
+              <li><a href="./about.html" >About Us</a></li>
+              <li><a href="./articles.html">Articles</a></li>
+              <li><a href="./promotions.html">Promotions</a></li>
+            </div>
+          </ul>
+          <div id="right">
+            <div id="phone">
+                <a href="tel:+18475102111"><img src="../images/call.png" alt="Phone number" class="imagine2" id="imagephone"></a>
+                <p id="call" class="gout">GIVE US A CALL</p>
+                <a href="tel:+18475102111" id="telephone" class="tel">847-510-2111</a>
+            </div>
+            <div id="hours">
+                <button><img src="../images/hours.png" alt="Office Hours" class="imagine2" id="mobileimagehours"></button>
+                <img src="../images/hours.png" alt="Office Hours" class="imagine2" id="imagehours">
+                <p class="gout" id="officehours">OFFICE HOURS</p>
+                <table id="hourTable">
+                    <tr><th>MON</th><td>9:30 AM - 12:30 PM</td></tr>
+                    <tr><th>TUE</th><td>9:30 AM - 6:00 PM</td></tr>
+                    <tr><th>THU</th><td>9:30 AM - 6:00 PM</td></tr>
+                    <tr><th>FRI</th><td>9:30 AM - 5:30 PM</td></tr>
+                    <tr><th>SAT</th><td>9:30 AM - 1:30 PM</td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
         <h2 id="privacy">Privacy Notice</h2>
         <hr>
         <h3 class="all-caps"><strong> Form of Notice of Privacy Practices</strong></h3>
@@ -66,5 +147,61 @@
          
         <p>If you are concerned that we may have violated your privacy rights, or you disagree with a decision we made about access to your medical information in response to a request you made to amend, restrict the use or disclosure of, or communicate in confidence about your medical information, you may complain to us using the contact information at the end of this notice. You also may submit a written complaint to the Office for Civil Rights of the United States Department of Health and Human Services, 200 Independence Avenue, SW, Room 509F, Washington, D.C. 20201. You may contact the Office of Civil Rights' Hotline at 1-800-368-1019. We will not retaliate in any way if you choose to file a complaint with us or with the U.S. Department of Health and Human Services.</p>
         </div>
+        <!-- contact section -->
+    <div id="contact">
+        <h2 id="bottomheader">Glenview Vision Care</h2>
+        <h2 class="gout" id="bottomhours">OFFICE HOURS</h2>
+        <p class="hey">Contact Us</p>
+        <div id="reach">
+            <div id="contactPhone">
+                <a href="tel:+18475102111"><img src="../images/call.png" alt="Phone Call" class="imagine"></a>
+                <p class="gout">GIVE US A CALL</p>
+                <a href="tel:+18475102111" class="tel tel2" id="tellie">847-510-2111</a>
+                <span class="empty"></span>
+            </div>
+            <div id="email">
+               <a href="mailto:gvc@glenviewvision.com?subject=" target="_blank"><img src="../images/email.png" alt="Email" class="imagine"></a>
+                <p class="gout"> SEND US AN EMAIL</p>
+                <a href="mailto:gvc@glenviewvision.com?subject= " target="_blank" class="tel tel2" id="ema">gvc@glenviewvision.com</a>
+                <span class="empty"></span>
+            </div>
+            <div id="address">
+                <a href="https://maps.google.com/?q=1920 Waukegan Road Suite 1 Glenview, IL 60025"
+                target="_blank"><a
+                  href="https://maps.apple.com/maps?q=1920 Waukegan Road Suite 1 Glenview, IL 60025"
+                  target="_blank"><img src="../images/map.png" alt="Map" class="imagine">
+                 </a></a>
+                 <p class="gout"> ADDRESS</p>
+                <a href="https://maps.google.com/?q=1920 Waukegan Road Suite 1 Glenview, IL 60025"
+                target="_blank"><a
+                  href="https://maps.apple.com/maps?q=1920 Waukegan Road Suite 1 Glenview, IL 60025"
+                  target="_blank" class="tel tel2" id="add">
+                  1920 Waukegan Road Suite 1
+                 Glenview, IL 60025
+                 </a></a>
+                 <span class="empty"></span>
+            </div>
+        </div>
+        <div id="off">
+            <h2 class="hey">Office Hours</h2>
+            <!-- <h2 class="gout" id="bottomhours">OFFICE HOURS</h2> -->
+            <button id="hid"><img src="../images/hours.png" alt="Office Hours"></button>
+            <table class="tel" id="open">
+                <!-- <h2 class="gout">OFFICE HOURS</h2> -->
+                <tr><th>MON</th><td>9:30 AM - 12:30 PM</td></tr>
+                <tr><th>TUE</th><td>9:30 AM - 6:00 PM</td></tr>
+                <tr><th>THU</th><td>9:30 AM - 6:00 PM</td></tr>
+                <tr><th>FRI</th><td>9:30 AM - 5:30 PM</td></tr>
+                <tr><th>SAT</th><td>9:30 AM - 1:30 PM</td></tr>
+            </table>
+        </div>
+        <h2 id="bottomsoc" class="gout">FOLLOW US</h2>
+        <div id="follow">
+            <p class="hey">Follow Us</p>
+            <a href="" target="_blank"><img src="../images/insta.png" alt="Instagram" class="imagine"></a>
+            <a href="" target="_blank" id="fb"><img src="../images/fb.png" alt="Facebook" class="imagine"></a>
+        </div>
+        <a href="../html/privacynotice.html">Notice of Privacy Practice</a>
+    </div>
 </body>
 </html>
