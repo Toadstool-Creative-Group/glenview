@@ -1,7 +1,48 @@
 
 /* mobile view */
 @media only screen and (max-width: 700px){
+    /* #aboutTop{
+        padding: 20px;
+    } */
+    #aboutTop h1{
+        text-align: center;
+        padding: 30px 0 50px;
+        margin: 0;
+    }
+   
+    #beckerman img, #smolyansky img{
+        width: 200px;
+        height: 200px;
+    }
+    #harthan img{
+        width: 200px;
+        height: 200px;
+    }
 
+    .beckerman, .harthan, .smolyansky{
+        text-align: center;
+    }
+
+    #beckerman, #harthan, #smolyansky{
+        padding: 20px 0;
+    }
+
+    #smolyansky{
+        padding-bottom: 45px;
+    }
+
+    #doctors{
+        margin: 0;
+    }
+    .titles{
+        margin: 0;
+        font-size:large;
+        font-weight: bold;
+        text-align: center;
+    }
+    #bio p{
+        padding: 8px 20px 0px 20px;
+    }
 }
 /* -------------------desktop view----------- */
 @media only screen and (min-width: 700px){
@@ -10,7 +51,7 @@
     }
     #aboutTop h1{
         text-align: center;
-        padding: 30px 0 50px;
+        padding: 20px 0 50px;
         margin: 0;
     }
     #beckerman img, #smolyansky img{
@@ -39,7 +80,7 @@
         font-weight: bold;
     }
     #bio p{
-        padding: 5px 20px 0px 20px;
+        padding: 5px 20px 5px 20px;
     }
 }
 /* ---------------------outside media queries--------- */
