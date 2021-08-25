@@ -38,7 +38,7 @@
   /* Modal Content */
   .modal-content {
     position: relative;
-    background-color: #fefefe;
+    background-color: #3358dc;
     margin: auto;
     padding: 0;
     border: 1px solid #3358dc;
@@ -333,6 +333,9 @@
   li a:hover {
     border-bottom: solid #3358dc 7px;
     padding-bottom: 10px;
+  }
+  #myModalHours{
+    display: none;
   }
   /* statement section */
   #covid {
