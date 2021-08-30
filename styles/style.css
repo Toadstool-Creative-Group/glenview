@@ -334,7 +334,7 @@
     border-bottom: solid #3358dc 7px;
     padding-bottom: 10px;
   }
-  #myModalHours{
+  #myModalHours {
     display: none;
   }
   /* statement section */
@@ -350,7 +350,7 @@
     /* white-space: nowrap; */
     width: 0;
     height: 0;
-    border-top: 120px solid rgba(255, 0, 0, 0.5);
+    border-top: 120px solid rgba(255, 0, 0, 0.4);
     border-right: 500px solid transparent;
   }
   #cvd {
