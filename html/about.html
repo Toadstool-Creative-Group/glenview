@@ -9,32 +9,95 @@
     <link rel="stylesheet" href="../styles/about.css">
 </head>
 <body>
-    
-    <!-- this is the navbar section, contains links to other pages, office hours and contact info. in mobile view it will have hamburger menu -->
-    <div id="navbar">
-        <img src="../images/menu.png" alt="Menu" class="menu-icon">
-        <div class="logo"><img src="../images/glenview.png" alt="Logo"></div>
-        <ul id="Navigation">
-            <div class="nav-links">
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="./service.html">Services</a></li>
-              <li><a href="./practice.html">Our Practice</a></li>
-              <li><a href="./about.html" class="current">About Us</a></li>
-              <li><a href="./articles.html">Articles</a></li>
-              <li><a href="./promotions.html">Promotions</a></li>
+   <!-- this is the navbar section, contains links to other pages, office hours and contact info. in mobile view it will have hamburger menu -->
+   <div id="navbar">
+    <!-- modal for now -->
+    <img src="../images/menu.png" alt="Menu" class="menu-icon" id="myBtn">
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+          </div>
+          <div class="modal-body">
+              <div class="darkblue">
+                <li><a href="./service.html">
+                    <img src="../images/services.png" alt="Services Page" class="modal-image">
+                    <p>Services</p>
+                    <p class="arrow">></p>
+                </a></li>
+              </div>
+              <div class="lightblue">
+                <li><a href="./practice.html">
+                    <img src="../images/ourpractice.png" alt="OurPractice Page" class="modal-image">
+                    <p>Our Practice</p>
+                    <p class="arrow">></p>
+                </a></li>
+              </div> 
+              <div class="darkblue">
+                <li><a href="./about.html">
+                    <img src="../images/ourteam.png" alt="AboutUs Page" class="modal-image">
+                    <p>About Us</p>
+                    <p class="arrow">></p>
+                </a></li>
+              </div>  
+              <div class="lightblue">
+                <li><a href="./articles.html">
+                    <img src="../images/articles.png" alt="Articles Page" class="modal-image">
+                    <p>Articles</p>
+                    <p class="arrow">></p>
+                </a></li>
+            </div> 
+            <div class="darkblue">
+                <li><a href="./promotions.html">
+                    <img src="../images/promotions.png" alt="Promtions Page" class="modal-image">
+                    <p>Promotions</p>
+                    <p class="arrow">></p>
+                </a></li>
             </div>
-          </ul>
-          <div id="right">
-            <div id="phone">
-                <a href="tel:+18475102111"><img src="../images/call.png" alt="Phone number" class="imagine2" id="imagephone"></a>
-                <p id="call" class="gout">GIVE US A CALL</p>
-                <a href="tel:+18475102111" id="telephone" class="tel">847-510-2111</a>
+          </div>
+        </div>
+      </div>
+
+    <div class="logo"><img src="../images/glenview.png" alt="Logo"></div>
+    <ul id="Navigation">
+        <div class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./service.html">Services</a></li>
+          <li><a href="./practice.html">Our Practice</a></li>
+          <li><a href="./about.html" class="current">About Us</a></li>
+          <li><a href="./articles.html">Articles</a></li>
+          <li><a href="./promotions.html">Promotions</a></li>
+        </div>
+      </ul>
+      <div id="right">
+        <div id="phone">
+            <a href="tel:+18475102111"><img src="../images/call.png" alt="Phone number" class="imagine2" id="imagephone"></a>
+            <p id="call" class="gout">GIVE US A CALL</p>
+            <a href="tel:+18475102111" id="telephone" class="tel">847-510-2111</a>
+        </div>
+        <div id="hours">
+            <!-- <button><img src="../images/hours.png" alt="Office Hours" class="imagine2" id="mobileimagehours"></button> -->
+            <img src="../images/hours.png" alt="Office Hours" class="imagine2" id="imagehours">
+            <p class="gout" id="officehours">OFFICE HOURS</p>
+            <table id="hourTable">
+                <tr><th>MON</th><td>9:30 AM - 12:30 PM</td></tr>
+                <tr><th>TUE</th><td>9:30 AM - 6:00 PM</td></tr>
+                <tr><th>THU</th><td>9:30 AM - 6:00 PM</td></tr>
+                <tr><th>FRI</th><td>9:30 AM - 5:30 PM</td></tr>
+                <tr><th>SAT</th><td>9:30 AM - 1:30 PM</td></tr>
+            </table>
+        </div>
+    </div>
+    <button><img src="../images/hours.png" alt="Office Hours" class="imagine2" id="mobileimagehours"></button>
+    <div id="myModalHours" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
             </div>
-            <div id="hours">
-                <button><img src="../images/hours.png" alt="Office Hours" class="imagine2" id="mobileimagehours"></button>
-                <img src="../images/hours.png" alt="Office Hours" class="imagine2" id="imagehours">
-                <p class="gout" id="officehours">OFFICE HOURS</p>
-                <table id="hourTable">
+            <div class="modal-body">
+                <table class="hourTableModal">
                     <tr><th>MON</th><td>9:30 AM - 12:30 PM</td></tr>
                     <tr><th>TUE</th><td>9:30 AM - 6:00 PM</td></tr>
                     <tr><th>THU</th><td>9:30 AM - 6:00 PM</td></tr>
@@ -44,6 +107,7 @@
             </div>
         </div>
     </div>
+</div>
     <!-- top portion -->
     <div id="aboutTop">
     <h1>About Us</h1>
