@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="../styles/privacynotice.css">
 </head>
 <body>
-    <!-- this is the navbar section, contains links to other pages, office hours and contact info. in mobile view it will have hamburger menu -->
-    <div id="navbar">
+     <!-- this is the navbar section, contains links to other pages, office hours and contact info. in mobile view it will have hamburger menu -->
+     <div id="navbar">
         <!-- modal for now -->
         <img src="../images/menu.png" alt="Menu" class="menu-icon" id="myBtn">
         <div id="myModal" class="modal">
@@ -79,7 +79,7 @@
                 <a href="tel:+18475102111" id="telephone" class="tel">847-510-2111</a>
             </div>
             <div id="hours">
-                <button><img src="../images/hours.png" alt="Office Hours" class="imagine2" id="mobileimagehours"></button>
+                <!-- <button><img src="../images/hours.png" alt="Office Hours" class="imagine2" id="mobileimagehours"></button> -->
                 <img src="../images/hours.png" alt="Office Hours" class="imagine2" id="imagehours">
                 <p class="gout" id="officehours">OFFICE HOURS</p>
                 <table id="hourTable">
@@ -91,7 +91,26 @@
                 </table>
             </div>
         </div>
+        <button><img src="../images/hours.png" alt="Office Hours" class="imagine2" id="mobileimagehours"></button>
+        <div id="myModalHours" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <table class="hourTableModal">
+                        <tr><th>MON</th><td>9:30 AM - 12:30 PM</td></tr>
+                        <tr><th>TUE</th><td>9:30 AM - 6:00 PM</td></tr>
+                        <tr><th>THU</th><td>9:30 AM - 6:00 PM</td></tr>
+                        <tr><th>FRI</th><td>9:30 AM - 5:30 PM</td></tr>
+                        <tr><th>SAT</th><td>9:30 AM - 1:30 PM</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
+    <div id="privacy-section">
         <h2 id="privacy">Privacy Notice</h2>
         <hr>
         <h3 class="all-caps"><strong> Form of Notice of Privacy Practices</strong></h3>
@@ -105,13 +124,13 @@
         <p>We reserve the right to change our privacy practices and the terms of this notice at any time, provided such changes are permitted by applicable law. We reserve the right to make the changes in our privacy practices and the new terms of our notice effective for all medical information that we maintain, including medical information we created or received before we made the changes. If we make a significant change in our privacy practices, we will change this notice and make available a copy of the notice at our office.</p>
          <p>You may request a paper copy of our notice at any time by contacting us using the information at the end of this notice.</p>
         </div>
-        <div>
+        <div class="list">
          <h3 class="all-caps"><strong>USES AND DISCLOSURES OF MEDICAL INFORMATION</strong></h3>
         <p>We will use and disclose medical information about you for treatment, payment and health care operations. For example:
             <ul>
-                <li><strong>Treatment:</strong> We may disclose your medical information, without your permission, to a physician or other health care provider to treat you, or to coordinate or manage your health care and any related services.</li>
-                <li><strong>Payment:</strong>We may use and disclose your medical information, without your permission, to determine eligibility, process claims or make payment for covered services you receive under your benefit plan. We may also disclose your medical information to a health care provider or another health plan for that provider or plan to obtain payment or engage in other payment activities.</li>
-                <li><strong>Health Care Operations:</strong>We may use and disclose your medical information, without your permission, for health care operations. Health care operations include, for example, health care quality assessment and improvement activities and general administrative activities.</li>
+                <li><strong>Treatment:</strong>&nbsp;We may disclose your medical information, without your permission, to a physician or other health care provider to treat you, or to coordinate or manage your health care and any related services.</li>
+                <li><strong>Payment:</strong>&nbsp;We may use and disclose your medical information, without your permission, to determine eligibility, process claims or make payment for covered services you receive under your benefit plan. We may also disclose your medical information to a health care provider or another health plan for that provider or plan to obtain payment or engage in other payment activities.</li>
+                <li><strong>Health Care Operations:</strong>&nbsp;We may use and disclose your medical information, without your permission, for health care operations. Health care operations include, for example, health care quality assessment and improvement activities and general administrative activities.</li>
             </ul>
             </p>
          <p>You may give us written authorization to use your medical information or to disclose it to anyone for any purpose. If you give us an authorization, you may revoke it in writing at any time. Your revocation will not affect any use or disclosure permitted by your authorization while it was in effect. Unless you give us a written authorization, we will not use or disclose your medical information for any purpose other than those described in this notice.</p>
@@ -147,6 +166,7 @@
          
         <p>If you are concerned that we may have violated your privacy rights, or you disagree with a decision we made about access to your medical information in response to a request you made to amend, restrict the use or disclosure of, or communicate in confidence about your medical information, you may complain to us using the contact information at the end of this notice. You also may submit a written complaint to the Office for Civil Rights of the United States Department of Health and Human Services, 200 Independence Avenue, SW, Room 509F, Washington, D.C. 20201. You may contact the Office of Civil Rights' Hotline at 1-800-368-1019. We will not retaliate in any way if you choose to file a complaint with us or with the U.S. Department of Health and Human Services.</p>
         </div>
+    </div>
         <!-- contact section -->
     <div id="contact">
         <h2 id="bottomheader">Glenview Vision Care</h2>
