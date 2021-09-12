@@ -29,6 +29,9 @@
        margin-bottom: 24px;
        margin-top: 24px;
    }
+   #promo p{
+    padding-top: 15px; 
+   }
 
    .paragraph{
        width: 100%;
@@ -68,7 +71,7 @@
         margin: 0;
     }
     .noticeMe{
-        font-size: larger;
+        font-size: large;
         font-weight: 600;
     }
     
@@ -76,7 +79,7 @@
         line-height: 1.2;
         margin-right: 60px;
         padding-right: 20px;
-        margin-top: 24px;        
+        margin-top: 24px;     
     }
 
     .paragraph p{

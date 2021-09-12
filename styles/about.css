@@ -90,11 +90,7 @@
 }
 #aboutTop a{
    color: #000000; 
+   font-weight: bold;
 }
-/* bottom section */
-#aboutBottom{
-    background-color: #5e5e5e;
-}
-#aboutBottom a{
-    color: #000000;
-}
+
+
