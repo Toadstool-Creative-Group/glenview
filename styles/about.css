@@ -1,13 +1,10 @@
 
 /* mobile view */
 @media only screen and (max-width: 700px){
-    /* #aboutTop{
-        padding: 20px;
-    } */
-    #aboutTop h1{
+    #aboutTop h2{
         text-align: center;
-        padding: 30px 0 50px;
-        margin: 0;
+        padding-top: 40px;
+        margin-bottom: 25px;
     }
    
     #beckerman img, #smolyansky img{
@@ -24,7 +21,7 @@
     }
 
     #beckerman, #harthan, #smolyansky{
-        padding: 20px 0;
+        padding: 20px;
     }
 
     #smolyansky{
@@ -41,35 +38,36 @@
         text-align: center;
     }
     #bio p{
-        padding: 8px 20px 0px 20px;
+        padding: 8px 20px 0px;
     }
 }
 /* -------------------desktop view----------- */
 @media only screen and (min-width: 700px){
-    #aboutTop{
-        padding: 50px;
-    }
-    #aboutTop h1{
+    #aboutTop h2{
         text-align: center;
-        padding: 20px 0 50px;
-        margin: 0;
+        padding-top: 50px;
+        margin-bottom: 40px;
+        font-size: xx-large;
     }
     #beckerman img, #smolyansky img{
-        width: 220px;
+        width: 260px;
         height: 220px;
-
+        margin-top: 15px;
     }
     #harthan img{
-        width: 220px;
-        height: 220px;
+        width: 240px;
+        height: 260px;
+        margin-top: 15px;
     }
 
     #beckerman, #harthan, #smolyansky{
         display: flex;
-        padding: 20px 0;
+        margin: 0 40px;
+        padding: 0 40px 50px;
     }
     #bio{
         flex: 2;
+        font-size: 20px;
     }
     #doctors{
         margin: 0;
@@ -80,7 +78,8 @@
         font-weight: bold;
     }
     #bio p{
-        padding: 5px 20px 5px 20px;
+        margin: 0 40px;
+        padding: 5px 80px;
     }
 }
 /* ---------------------outside media queries--------- */
@@ -89,8 +88,8 @@
     background-color: #5e5e5e;
 }
 #aboutTop a{
-   color: #000000; 
-   font-weight: bold;
+   color: lightskyblue; 
+   /* font-weight: bold; */
 }
 
 
