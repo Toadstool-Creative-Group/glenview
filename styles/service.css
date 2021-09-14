@@ -6,9 +6,10 @@
 /* mobile view */
 @media only screen and (max-width: 700px){
    .noticeMe{
-       font-size: 22px;
+       font-size: 18px;
+       font-weight: bold;
    }
-   #serviceTop h1{
+   #serviceTop h2{
        margin: 0px;
        padding-top: 40px;
        text-align: center;
@@ -16,32 +17,36 @@
    #serviceTop{
     padding-bottom: 24px;
    }
-   p.exams{
-       margin: 0;
-       padding: 20px;
-   }
+   
    p.types{
-       margin: 20px;
+       margin: 20px 40px;
         text-align: center;
+        /* word-spacing: 5px; */
+        font-size: 18px;
     }
-   }
+   
    ul li{
-       line-height: 1.9;
+       line-height: 1.1;
        margin-top: 10px;
        margin-left: 20px;
-       margin-right: 8px;
+       margin-right: 10px;
+       padding-bottom: 20px;
+       font-size: 18px;
+       font-weight: bolder;
    }
-   #serviceBottom h3{
+   /* #serviceBottom h3{
        margin: 10px 0;
        padding-bottom: 8px;
-   }
+   } */
    #languages, #insurance, #payment{
-       margin: 0px;
-       padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
    }
 
    #serviceBottom{
        padding: 30px 0;
+       font-size: 18px;
    }
 
    .exams{
@@ -49,16 +54,19 @@
     padding: 10px 10px;
 }
    .description{
-    margin-top: -20px;
+    margin-top: -5px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-bottom: 20px;
 }
-.bottomDescription{
-    margin-top: -20px;
-}
-.titles{
-    padding-bottom: 20px;
-    font-size: larger;
-    font-weight: bolder;
+    .titles{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .bottomDescription{
+    margin-top: 20px;
+    font-size: 16px;
 }
 
    #serviceImage{
@@ -68,43 +76,43 @@
    #serviceImage img{
        width: 100%;
    }
+   /*buttons*/
     .button{
     margin: 10px;
     text-align: center;
-    color: white;
-    
+    color: white;    
     }
    .primary{
     width: 200px;
     height: 50px;
     font-size: 16px;
     margin: 8px;
-    color: white;
-    
+    color: white;    
     }
     .secondary{
-        width: 200px;
-        height: 50px;
-        font-size: 16px;
-        margin: 8px;
-        color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    margin: 8px;
+    color: white;
     }
-
+}
 /* -------------------- desktop view ---------------------- */
 @media only screen and (min-width: 700px){
-    #serviceTop h1{
+    #serviceTop h2{
         text-align: center;
         padding-top: 50px;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
+        font-size: xx-large;
     } 
-    p.types{
-        font-size: 18px;
+    .types{
+        font-size: 22px;
         text-align: center;
     }
    
     .button{
-       justify-content: center; 
-       padding: 0px;
+       text-align: center; 
+       padding: 20px;
        margin: 40px;
     }
     
@@ -112,35 +120,61 @@
     width: 220px;
     height: 55px;
     font-size: 18px;
-
+    margin: 15px;
     }
     .secondary{
         width: 220px;
         height: 55px;
         font-size: 18px;
+        margin: 15px;
         }
 
     .exams{
         margin: 0 40px;
         padding: 10px 40px;
-    }
+        }
+
     .description{
-        /* margin-top: -20px; */
+        font-size: 20px;
         padding-bottom: 20px;
+        padding-right: 360px;
+        margin-left: 20px;
+        margin-right: 80px;
+        margin-top: -14px;
+    }
+
+    .exams ul li{
+        line-height: 1.1;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 10px;
+        padding-bottom: 20px;
+        font-size: 24px;
+        font-weight: bolder;
     }
     
     .titles{
-        padding-bottom: 20px;
-        font-size: larger;
-        font-weight: bolder;
+        padding-bottom: 15px;
+        font-size: 22px;
+        font-weight: bold;
     }
 
     #languages, #insurance, #payment{
-        margin: 0 58px;
+        margin-left: 80px;
+        margin-right: 70px;
+        padding: 20px;
+    }
+
+    .bottomDescription{
+        margin-top: 10px;
+        padding-right: 360px;
+        margin-right: 80px;
+        font-size: 20px;
     }
 
     .noticeMe{
-        font-size: 20px;
+        font-size: 22px;
+        font-weight: bold;
     }
 
     #serviceImage{
@@ -153,6 +187,10 @@
         width: 400px;
         height: auto;
         padding: 24px;
+    }
+
+    #serviceBottom{
+        padding: 30px 0;
     }
 }
 /* --------------------- outside media queries --------------- */

@@ -5,21 +5,23 @@
 /* mobile view */
 @media only screen and (max-width: 700px){
     .promo-container{
-        /* display: flex; */
-        padding: 40px 0;
         margin: 0;
     }
+
     #promo{
-        padding: 20px;
+        margin: 0 20px;
+        padding: 0 30px;
     }
-   h1.title{
+   .title{
+       font-size: 24px;
+       font-weight: bold;
        text-align: center;
-       margin-bottom: 0px;
-       padding-top: 20px;
+       padding-bottom: 25px;
+       padding-top: 40px;
    }
-   h2{
+   h3{
        margin-left: 5px;
-       margin-bottom: 40px;
+       margin-bottom: 20px;
        line-height: 1.4;
        letter-spacing: 0.8px;
    }
@@ -35,6 +37,7 @@
 
    .paragraph{
        width: 100%;
+       padding-bottom: 30px;
    }
 
    .noticeMe{
@@ -42,60 +45,73 @@
        font-weight: 600;
    }
    .school img{
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     margin: auto;
+    padding: 20px;
     display: block;
+    }
+    .school{
+        padding-bottom: 10px;
     }
 }
 
 /* -------------------- desktop view ---------------------- */
 @media only screen and (min-width: 700px){
-    .promo-container{
+    .promo-container{        
+        padding: 0px 80px 50px 40px ;
         display: flex;
-        padding: 120px 80px;
-        margin: 0;
     }
+
     #promo{
-        margin-left: 24px;
+        margin-left: 60px;
+        padding-left: 40px;
         padding-right: 24px;
-        flex: 2;
+        flex: 1;
      }
     .title{
+        font-size: 32px;
+        font-weight: bold;
         text-align: center;
         margin: 0;
-        padding-top: 70px;
+        padding-top: 50px;
+        padding-bottom: 40px;
     }
-    #promo h2{
+    #promo h3{
         padding: 10px 0;
         margin: 0;
+        font-size: 24px;
+        padding-right: 360px;
+      
     }
     .noticeMe{
-        font-size: large;
+        font-size: 22px;
         font-weight: 600;
     }
     
-    #promo p {
+    /* #promo p {
         line-height: 1.2;
         margin-right: 60px;
         padding-right: 20px;
         margin-top: 24px;     
-    }
+    } */
 
     .paragraph p{
         margin-right: 32px;
-        padding-right: 24px; 
+        padding-top: 15px;
+        padding-right: 44px; 
         width: 50%;  
-        font-size: 18px;     
+        font-size: 20px;     
     }
 
     .school img{
-        width: 275px;
-        height: 275px;
+        width: 250px;
+        height: 250px;
+        margin-left: 80px;
+        margin-top: 20px;
     }
     .school{
-        /* flex: 1; */
-        margin-right: 20px;
+        margin: 0px;
     }
 }
 /* --------------------- outside media queries --------------- */
