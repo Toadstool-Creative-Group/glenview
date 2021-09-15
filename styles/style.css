@@ -174,7 +174,7 @@
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
     overflow: auto;
-    height: 60vh;
+    height: 80vh;
     scroll-snap-type: both mandatory;
     scroll-padding: 1rem;
   }
