@@ -16,7 +16,7 @@ h3.all-caps{
     margin-top: 10px;
     font-size: medium;
 }
-p{
+#privacy-section p{
     margin: 8px 0;
 }
 /* ul{
@@ -50,7 +50,7 @@ h3.all-caps{
     margin-top: 25px;
 }
 
-p{
+privacy-section p{
     margin: 15px 0px;
 
 }
