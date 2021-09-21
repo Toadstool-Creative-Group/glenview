@@ -31,8 +31,12 @@ h3{
 }
 
 #practiceTop p, #practiceBottom p{
-    margin-top: 0px;
     margin-bottom: 10px;
+}
+#eyeglass p{
+    text-indent: -9px;
+    padding-left: 9px;
+    
 }
 
 }
