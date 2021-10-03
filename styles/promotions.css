@@ -6,6 +6,7 @@
 @media only screen and (max-width: 700px){
     .promo-container{
         margin: 0;
+        padding: 20px;
     }
 
     #promo{
@@ -26,13 +27,14 @@
        letter-spacing: 0.8px;
    }
    p.paragraph {
-       margin-left: 5px;
+       margin-left: 25px;
        /* font-weight: 300; */
        margin-bottom: 24px;
        margin-top: 24px;
    }
    #promo p{
     padding-top: 15px; 
+    text-align: center;
    }
 
    .paragraph{
@@ -40,7 +42,7 @@
        padding-bottom: 30px;
    }
 
-   .noticeMe{
+   /* .noticeMe{
        font-size: large;
        font-weight: 600;
    }
@@ -53,13 +55,16 @@
     }
     .school{
         padding-bottom: 10px;
-    }
+    } */
+   
 }
 
 /* -------------------- desktop view ---------------------- */
 @media only screen and (min-width: 700px){
     .promo-container{        
-        padding: 0px 80px 50px 40px ;
+        /* padding: 0px 80px 50px 40px ; */
+        margin: 0;
+        padding: 100px;
         display: flex;
     }
 
@@ -67,6 +72,7 @@
         margin-left: 60px;
         padding-left: 40px;
         padding-right: 24px;
+        margin-bottom: 60px;
         flex: 1;
      }
     .title{
@@ -115,6 +121,7 @@
     }
 }
 /* --------------------- outside media queries --------------- */
+
 .promo-container, .title{
     background-color: #5e5e5e;
 }
