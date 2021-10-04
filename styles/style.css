@@ -134,31 +134,15 @@
   }
 
   /* top section for landing page */
-  /* #statement h1 {
-    font-weight: lighter;
-    text-align: center;
-    font-size: 50px;
-  } */
+  
   #care {
     font-size: 16px;
     text-align: center;
-    /* margin: 20% 5% 25% 5%; */
   }
-  #statement {
-    /* background-repeat: no-repeat;
-    background-size: cover; */
-    /* padding: 0% 10% 20% 0%; */
-  }
+  
   #covid {
-    /* background-color: #FF0000; */
-    /* padding: 4px; */
-    /* max-width: 231px; */
-    /* max-height: 500px; */
     position: relative;
-    /* color: #FFF; */
     font-weight: 600;
-    /* font-size: 18px; */
-    /* white-space: nowrap; */
     width: 0;
     height: 0;
     border-top: 80px solid rgba(255, 0, 0, 0.4);
@@ -167,13 +151,21 @@
   #cvd {
     position: absolute;
     padding-left: 5px;
-    bottom: 40px;
+    bottom: 45px;
     white-space: nowrap;
+    font-size: 18px;
   }
   #rule {
     position: absolute;
     padding-left: 5px;
-    bottom: 20px;
+    bottom: 25px;
+    font-size: 12px;
+  }
+  #headinggroup{
+    margin: 20px;
+  }
+  #glenview-header{
+    margin-bottom: 20px;
   }
 
   #heading{
@@ -185,11 +177,18 @@
     text-align: center;
     margin-top: 15%;
   }
+  #butt{
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
   .appt {
     display: block;
     text-align: center;
     margin: auto;
     margin-bottom: 5%;
+  }
+  #header-image{
+    margin: 30px;
   }
 
   #header-image img{
@@ -469,8 +468,8 @@
     /* white-space: nowrap; */
     width: 0;
     height: 0;
-    border-top: 80px solid rgba(255, 0, 0, 0.4);
-    border-right: 500px solid transparent;
+    border-top: 150px solid rgba(255, 0, 0, 0.4);
+    border-right: 700px solid transparent;
     /* flex: 1; */
     /* margin-right: 50px; */
   }
@@ -478,13 +477,15 @@
   #cvd {
     position: absolute;
     padding-left: 25px;
-    top: -70px;
+    top: -120px;
     white-space: nowrap;
+    font-size: 24px;
   }
   #rule {
     position: absolute;
     padding-left: 25px;
-    top: -40px;
+    top: -80px;
+    font-size: 18px;
   }
 
   #statement {
@@ -827,12 +828,7 @@ li {
     border-bottom-color: transparent;
     border-left-color: transparent;
 } */
-#cvd {
-  font-size: 24px;
-}
-#rule {
-  font-size: 18px;
-}
+
 
 .appt {
   /* background-color: #3358DC; */
