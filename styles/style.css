@@ -471,27 +471,27 @@
     height: 0;
     border-top: 80px solid rgba(255, 0, 0, 0.4);
     border-right: 500px solid transparent;
-    flex: 1;
+    /* flex: 1; */
     /* margin-right: 50px; */
   }
   
   #cvd {
     position: absolute;
     padding-left: 25px;
-    top: 0px;
+    top: -70px;
     white-space: nowrap;
   }
   #rule {
     position: absolute;
     padding-left: 25px;
-    top: 40px;
+    top: -40px;
   }
 
   #statement {
     /* padding-top: 1%; */
     /* background-repeat: no-repeat;
     background-size: contain; */
-    display: flex;
+    /* display: flex; */
     height: auto;
   }
   #statement h2 {
@@ -500,10 +500,14 @@
     font-size: 72px;
     margin-bottom: 20px;
   }
+  #headinggroup{
+    display: flex;
+  }
   #heading{
     width: 100%;
     text-align: center;
-    margin: 50px 0 50px 180px;
+    margin: auto 0 auto 80px;
+    flex: 1;
   }
   
   #care {
