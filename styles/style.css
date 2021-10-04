@@ -356,7 +356,7 @@
     display: none;
   }
   .more {
-    margin-top: 10%;
+    margin-top: 2%;
   }
   h1 {
     margin-bottom: 10%;
@@ -501,10 +501,10 @@
     height: auto;
   }
   #statement h2 {
-    text-align: center;
+    text-align: left;
     font-weight: lighter;
-    font-size: 72px;
-    margin-bottom: 20px;
+    font-size: 48px;
+    margin-bottom: 10px;
   }
   #headinggroup{
     display: flex;
@@ -517,17 +517,18 @@
   }
   
   #care {
-    text-align: center;
-    font-size: 24px;
+    text-align: left;
+    font-size: 20px;
     /* margin: auto 20%; */
   }
   #butt {
     display: flex;
-    justify-content: center;
-    margin: 10px;
+    justify-content: left;
+    margin-top: 40px;
   }
   #butt button {
-    margin: 10px;
+    margin: 10px 10px 10px 0;
+
   }
   #header-image{
     flex: 2;
@@ -536,7 +537,8 @@
     width: 100%;
     height: auto;
     margin: 0;
-    padding: 60px;
+    padding-top: 75px;
+    padding-right: 40px;
   }
 
   /* service section */
@@ -548,62 +550,78 @@
   }
   .carou {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin: auto;
   }
 
   #comp img, #lasik img, #eval img, #pediatric img{
-    width:400px;
-    height: 267px;
+    width:320px;
+    height: 217px;
     margin: auto;
+    padding: 5px;
   }
 
   /* about section */
   #about {
     display: grid;
-    margin: 20% 5%;
+    margin: 10% 2%;
   }
   /* #about img{
     width: ;
   } */
   #glenimg {
-    width: 500px;
+    width: 300px;
     grid-row: 1/4;
     grid-column: 1/2;
     margin-left: 10%;
   }
   #glen {
-    font-size: 50px;
+    font-size: 36px;
     font-weight: lighter;
-    margin: 5% 10% 0% 20%;
+    margin: 10% 10% 0% 20%;
   }
   #glenpar {
-    font-size: 24px;
+    font-size: 20px;
     text-align: left;
     grid-row: 2/3;
-    margin: 0% 10% 0% 20%;
+    margin: -10% 10% 0% 20%;
   }
 
   #glena {
     grid-row: 3/4;
     grid-column: 2/3;
-    font-size: 24px;
-    margin: 0% 10% 0% 20%;
-    color: #a9a9a9;
+    font-size: 20px;
+    margin: -10% 10% 0% 20%;
+    color: lightskyblue;
   }
   /* review section */
-
+.testimony{
+  display: -webkit-flex;
+  margin: auto;
+}
+.testimony p{
+  margin: 15px 0;
+}
+#review1 p, #review2 p{
+  padding-right: 15px ;
+}
   #review1,
   #review2,
   #review3 {
-    margin: auto 7%;
-    font-size: 24px;
+    margin: 10px 5px 10px 0;
+    font-size: 16px;
+    text-align: left;
+  }
+  .date{
+    padding: 25px 0;
   }
 
-   /* testimonial section*/
+   /* article section*/
    #corrective img, #vision img, #important img{
-    width:400px;
-    height: 267px;
+    width:320px;
+    height: 217px;
     margin: auto;
+    padding: 5px;
   }
   
   /* bottom contact section */
@@ -635,10 +653,10 @@
     margin-bottom: 50px;
   }
   #contactPhone img {
-    grid-row: 1/3;
-    grid-column: 1/2;
+    /* grid-row: 1/3;
+    grid-column: 1/2; */
     margin-top: 10px;
-    margin-right: -50px;
+    margin-right: -30px;
   }
   #contactPhone p {
     grid-row: 1/2;
@@ -664,10 +682,10 @@
     margin-top: 100px;
   }
   #email img {
-    grid-row: 1/3;
-    grid-column: 1/2;
+    /* grid-row: 1/3;
+    grid-column: 1/2; */
     margin-top: 10px;
-    margin-right: -40px;
+    margin-right: -20px;
   }
   #email p {
     grid-row: 1/2;
@@ -691,10 +709,10 @@
     display: grid;
   }
   #address img {
-    grid-row: 1/3;
-    grid-column: 1/2;
+    /* grid-row: 1/3; */
+    /* grid-column: 1/2; */
     margin-top: -25px;
-    margin-right: -15px;
+    margin-right: 5px;
   }
   #address p {
     grid-row: 1/2;
@@ -712,7 +730,7 @@
     font-size: 1.2em;
   }
   .tel2 {
-    text-decoration: underline;
+    text-decoration: none;
   }
   .empty {
     grid-row: 1/3;
@@ -720,7 +738,7 @@
   }
   /* bottom hours */
   #bottomhours {
-    font-size: xx-large;
+    font-size: x-large;
     grid-row: 1/2;
     grid-column: 2/3;
     font-weight: lighter;
@@ -738,10 +756,11 @@
   }
   th {
     padding-top: 30px;
+    text-align: right;
   }
   /* bottomsocial */
   #bottomsoc {
-    font-size: xx-large;
+    font-size: x-large;
     grid-row: 1/2;
     grid-column: 3/4;
     font-weight: lighter;
@@ -799,8 +818,8 @@ button {
   border-radius: 7px;
   border-width: 2px;
   background-color: transparent;
-  color: #3358dc;
-  font-size: 25px;
+  color: #ffffff;
+  font-size: 18px;
   width: 208px;
   height: 60px;
 }

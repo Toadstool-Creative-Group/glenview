@@ -90,8 +90,9 @@ h3{
     }
 
     #filler img{
-        width: 400px;
-        padding-bottom: 50px;
+        padding: 0 5px 50px 0px;
+        width:300px;
+        margin: auto;
     }
 }
 /* ---------------------outside media queries--------- */
