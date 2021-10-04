@@ -96,6 +96,11 @@
     margin: 8px;
     color: white;
     }
+
+    hr{
+        margin: 0 38px;
+        width: 70%; 
+    }
 }
 /* -------------------- desktop view ---------------------- */
 @media only screen and (min-width: 700px){
@@ -131,16 +136,16 @@
 
     .exams{
         margin: 0 40px;
-        padding: 10px 40px;
+        padding: 30px 40px;
         }
 
     .description{
         font-size: 20px;
         padding-bottom: 20px;
-        padding-right: 360px;
+        padding-right: 450px;
         margin-left: 20px;
-        margin-right: 80px;
-        margin-top: -14px;
+        margin-right: 190px;
+        margin-top: -10px;
     }
 
     .exams ul li{
@@ -166,9 +171,9 @@
     }
 
     .bottomDescription{
-        margin-top: 10px;
-        padding-right: 360px;
-        margin-right: 80px;
+        margin-top: -10px;
+        padding-right: 450px;
+        margin-right: 190px;
         font-size: 20px;
     }
 
@@ -191,6 +196,11 @@
 
     #serviceBottom{
         padding: 30px 0;
+    }
+
+    hr{
+        margin: 0 100px;
+        width: 58%; 
     }
 }
 /* --------------------- outside media queries --------------- */
@@ -222,3 +232,12 @@
 button{
     color: white;
 }
+ hr {
+    height: 1px; 
+    border: none; 
+    color:#6E6B6B; 
+    background-color: #6E6B6B; 
+ }
+ #hr{
+     background-color: #5E5E5E;
+ }
