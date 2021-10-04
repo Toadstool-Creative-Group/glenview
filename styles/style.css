@@ -294,6 +294,11 @@
     width: 100%;
     height: auto;
   }
+  #glenpar{
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+ 
   #glen {
     display: none;
   }
