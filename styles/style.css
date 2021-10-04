@@ -140,13 +140,13 @@
     font-size: 50px;
   } */
   #care {
-    font-size: 24px;
+    font-size: 16px;
     text-align: center;
-    margin: 20% 5% 25% 5%;
+    /* margin: 20% 5% 25% 5%; */
   }
   #statement {
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     /* padding: 0% 10% 20% 0%; */
   }
   #covid {
@@ -175,6 +175,12 @@
     padding-left: 5px;
     bottom: 20px;
   }
+
+  #heading{
+    width: fit-content;
+    height: fit-content;
+    display: block;
+  }
   #glenview-header{
     text-align: center;
     margin-top: 15%;
@@ -185,14 +191,39 @@
     margin: auto;
     margin-bottom: 5%;
   }
+
+  #header-image img{
+    width: 100%;
+    height: auto;
+  }
   /* services section */
   #service {
     margin: 20% 5%;
   }
+  .galleryheader{
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .gallery{
+    clear: both;
+  }
+
+  #comp img, #lasik img, #eval img, #pediatric img{
+    width:300px;
+    height: 200px;
+    margin: auto;
+  }
+
+  #comp p, #lasik p, #eval p, #pediatric p{
+    padding-top: 40px;
+    display: flex-box;
+  }
+
 
   /* Testimonial section */
   .galleryheader {
-    margin-bottom: 70px;
+    margin-bottom: 40px;
   }
   #review {
     margin: 10% 5%;
@@ -237,6 +268,12 @@
     font-weight: bolder;
   }
 
+  #corrective img, #vision img, #important img{
+    width:300px;
+    height: 200px;
+    margin: auto;
+  }
+
   /* about section */
   #about {
     margin: 20% 10%;
@@ -255,6 +292,8 @@
   #about img {
     display: block;
     margin: auto;
+    width: 100%;
+    height: auto;
   }
   #glen {
     display: none;
@@ -418,38 +457,42 @@
   #myModalHours {
     display: none;
   }
-  /* statement section */
+  /* -----------------statement section------------------- */
   #covid {
     /* background-color: #FF0000; */
     /* padding: 4px; */
     /* max-width: 231px; */
     /* max-height: 500px; */
     position: relative;
-    /* color: #FFF; */
     font-weight: 600;
     font-size: 24px;
     /* white-space: nowrap; */
     width: 0;
     height: 0;
-    border-top: 120px solid rgba(255, 0, 0, 0.4);
+    border-top: 80px solid rgba(255, 0, 0, 0.4);
     border-right: 500px solid transparent;
+    flex: 1;
+    /* margin-right: 50px; */
   }
+  
   #cvd {
     position: absolute;
     padding-left: 25px;
-    bottom: 80px;
+    top: 0px;
     white-space: nowrap;
   }
   #rule {
     position: absolute;
     padding-left: 25px;
-    bottom: 40px;
+    top: 40px;
   }
 
   #statement {
     /* padding-top: 1%; */
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+    display: flex;
+    height: auto;
   }
   #statement h2 {
     text-align: center;
@@ -457,19 +500,33 @@
     font-size: 72px;
     margin-bottom: 20px;
   }
+  #heading{
+    width: 100%;
+    text-align: center;
+    margin: 50px 0 50px 180px;
+  }
+  
   #care {
     text-align: center;
-    font-size: 50px;
-    margin: auto 20%;
+    font-size: 24px;
+    /* margin: auto 20%; */
   }
   #butt {
     display: flex;
     justify-content: center;
-    margin: 40px;
-    padding-bottom: 50px;
+    margin: 10px;
   }
   #butt button {
-    margin: 40px;
+    margin: 10px;
+  }
+  #header-image{
+    flex: 2;
+  }
+  #header-image img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 60px;
   }
 
   /* service section */
@@ -483,11 +540,21 @@
     display: flex;
     justify-content: space-evenly;
   }
+
+  #comp img, #lasik img, #eval img, #pediatric img{
+    width:400px;
+    height: 267px;
+    margin: auto;
+  }
+
   /* about section */
   #about {
     display: grid;
     margin: 20% 5%;
   }
+  /* #about img{
+    width: ;
+  } */
   #glenimg {
     width: 500px;
     grid-row: 1/4;
@@ -521,6 +588,14 @@
     margin: auto 7%;
     font-size: 24px;
   }
+
+   /* testimonial section*/
+   #corrective img, #vision img, #important img{
+    width:400px;
+    height: 267px;
+    margin: auto;
+  }
+  
   /* bottom contact section */
   h2 {
     margin-bottom: 100px;
@@ -755,9 +830,6 @@ li {
   font-size: 18px;
 }
 
-#statement {
-  background-image: url(../images/home.png);
-}
 .appt {
   /* background-color: #3358DC; */
   color: white;
