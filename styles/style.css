@@ -175,7 +175,7 @@
     padding-left: 5px;
     bottom: 20px;
   }
-  #glenview-header{
+  #glenview-header {
     text-align: center;
     margin-top: 15%;
   }
@@ -263,7 +263,6 @@
   #article {
     margin: 20% 5%;
   }
-  
 
   /* contact section */
   #follow h2 {
@@ -299,11 +298,14 @@
   .carou {
     display: none;
   }
-  #notice{
+  #notice {
     font-size: 12px;
     text-align: right;
   }
 }
+
+/* --------------------- tablet view ---------------------- */
+
 /* -------------------- desktop view ---------------------- */
 @media only screen and (min-width: 1000px) {
   .menu-icon {
@@ -618,7 +620,7 @@
     margin-bottom: 10px;
     margin-top: 20px;
   }
-  #add.tel.tel2{
+  #add.tel.tel2 {
     margin-top: 10px;
   }
   #add {
@@ -671,7 +673,7 @@
   .gallery {
     display: none;
   }
-  #notice{
+  #notice {
     text-align: right;
     grid-column: 3/3;
   }
