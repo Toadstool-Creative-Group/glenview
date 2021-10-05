@@ -134,31 +134,15 @@
   }
 
   /* top section for landing page */
-  /* #statement h1 {
-    font-weight: lighter;
-    text-align: center;
-    font-size: 50px;
-  } */
+  
   #care {
-    font-size: 24px;
+    font-size: 16px;
     text-align: center;
-    margin: 20% 5% 25% 5%;
   }
-  #statement {
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* padding: 0% 10% 20% 0%; */
-  }
+  
   #covid {
-    /* background-color: #FF0000; */
-    /* padding: 4px; */
-    /* max-width: 231px; */
-    /* max-height: 500px; */
     position: relative;
-    /* color: #FFF; */
     font-weight: 600;
-    /* font-size: 18px; */
-    /* white-space: nowrap; */
     width: 0;
     height: 0;
     border-top: 80px solid rgba(255, 0, 0, 0.4);
@@ -167,17 +151,35 @@
   #cvd {
     position: absolute;
     padding-left: 5px;
-    bottom: 40px;
+    bottom: 45px;
     white-space: nowrap;
+    font-size: 18px;
   }
   #rule {
     position: absolute;
     padding-left: 5px;
-    bottom: 20px;
+    bottom: 25px;
+    font-size: 12px;
+  }
+  #headinggroup{
+    margin: 20px;
+  }
+  #glenview-header{
+    margin-bottom: 20px;
+  }
+
+  #heading{
+    width: fit-content;
+    height: fit-content;
+    display: block;
   }
   #glenview-header {
     text-align: center;
     margin-top: 15%;
+  }
+  #butt{
+    margin-top: 15%;
+    margin-bottom: 15%;
   }
   .appt {
     display: block;
@@ -185,14 +187,42 @@
     margin: auto;
     margin-bottom: 5%;
   }
+  #header-image{
+    margin: 30px;
+  }
+
+  #header-image img{
+    width: 100%;
+    height: auto;
+  }
   /* services section */
   #service {
     margin: 20% 5%;
   }
+  .galleryheader{
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .gallery{
+    clear: both;
+  }
+
+  #comp img, #lasik img, #eval img, #pediatric img{
+    width:300px;
+    height: 200px;
+    margin: auto;
+  }
+
+  #comp p, #lasik p, #eval p, #pediatric p{
+    padding-top: 40px;
+    display: flex-box;
+  }
+
 
   /* Testimonial section */
   .galleryheader {
-    margin-bottom: 70px;
+    margin-bottom: 40px;
   }
   #review {
     margin: 10% 5%;
@@ -237,6 +267,12 @@
     font-weight: bolder;
   }
 
+  #corrective img, #vision img, #important img{
+    width:300px;
+    height: 200px;
+    margin: auto;
+  }
+
   /* about section */
   #about {
     margin: 20% 10%;
@@ -255,7 +291,14 @@
   #about img {
     display: block;
     margin: auto;
+    width: 100%;
+    height: auto;
   }
+  #glenpar{
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+ 
   #glen {
     display: none;
   }
@@ -315,7 +358,7 @@
     display: none;
   }
   .more {
-    margin-top: 10%;
+    margin-top: 2%;
   }
   h1 {
     margin-bottom: 10%;
@@ -420,58 +463,84 @@
   #myModalHours {
     display: none;
   }
-  /* statement section */
+  /* -----------------statement section------------------- */
   #covid {
     /* background-color: #FF0000; */
     /* padding: 4px; */
     /* max-width: 231px; */
     /* max-height: 500px; */
     position: relative;
-    /* color: #FFF; */
     font-weight: 600;
     font-size: 24px;
     /* white-space: nowrap; */
     width: 0;
     height: 0;
-    border-top: 120px solid rgba(255, 0, 0, 0.4);
-    border-right: 500px solid transparent;
+    border-top: 150px solid rgba(255, 0, 0, 0.4);
+    border-right: 700px solid transparent;
+    /* flex: 1; */
+    /* margin-right: 50px; */
   }
+  
   #cvd {
     position: absolute;
     padding-left: 25px;
-    bottom: 80px;
+    top: -120px;
     white-space: nowrap;
+    font-size: 24px;
   }
   #rule {
     position: absolute;
     padding-left: 25px;
-    bottom: 40px;
+    top: -80px;
+    font-size: 18px;
   }
 
   #statement {
     /* padding-top: 1%; */
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+    /* display: flex; */
+    height: auto;
   }
   #statement h2 {
-    text-align: center;
+    text-align: left;
     font-weight: lighter;
-    font-size: 72px;
-    margin-bottom: 20px;
+    font-size: 48px;
+    margin-bottom: 10px;
   }
-  #care {
+  #headinggroup{
+    display: flex;
+  }
+  #heading{
+    width: 100%;
     text-align: center;
-    font-size: 50px;
-    margin: auto 20%;
+    margin: auto 0 auto 80px;
+    flex: 1;
+  }
+  
+  #care {
+    text-align: left;
+    font-size: 20px;
+    /* margin: auto 20%; */
   }
   #butt {
     display: flex;
-    justify-content: center;
-    margin: 40px;
-    padding-bottom: 50px;
+    justify-content: left;
+    margin-top: 40px;
   }
   #butt button {
-    margin: 40px;
+    margin: 10px 10px 10px 0;
+
+  }
+  #header-image{
+    flex: 2;
+  }
+  #header-image img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding-top: 75px;
+    padding-right: 40px;
   }
 
   /* service section */
@@ -483,46 +552,80 @@
   }
   .carou {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin: auto;
   }
+
+  #comp img, #lasik img, #eval img, #pediatric img{
+    width:320px;
+    height: 217px;
+    margin: auto;
+    padding: 5px;
+  }
+
   /* about section */
   #about {
     display: grid;
-    margin: 20% 5%;
+    margin: 10% 2%;
   }
+  /* #about img{
+    width: ;
+  } */
   #glenimg {
-    width: 500px;
+    width: 300px;
     grid-row: 1/4;
     grid-column: 1/2;
     margin-left: 10%;
   }
   #glen {
-    font-size: 50px;
+    font-size: 36px;
     font-weight: lighter;
-    margin: 5% 10% 0% 20%;
+    margin: 10% 10% 0% 20%;
   }
   #glenpar {
-    font-size: 24px;
+    font-size: 20px;
     text-align: left;
     grid-row: 2/3;
-    margin: 0% 10% 0% 20%;
+    margin: -10% 10% 0% 20%;
   }
 
   #glena {
     grid-row: 3/4;
     grid-column: 2/3;
-    font-size: 24px;
-    margin: 0% 10% 0% 20%;
-    color: #a9a9a9;
+    font-size: 20px;
+    margin: -10% 10% 0% 20%;
+    color: lightskyblue;
   }
   /* review section */
-
+.testimony{
+  display: -webkit-flex;
+  margin: auto;
+}
+.testimony p{
+  margin: 15px 0;
+}
+#review1 p, #review2 p{
+  padding-right: 15px ;
+}
   #review1,
   #review2,
   #review3 {
-    margin: auto 7%;
-    font-size: 24px;
+    margin: 10px 5px 10px 0;
+    font-size: 16px;
+    text-align: left;
   }
+  .date{
+    padding: 25px 0;
+  }
+
+   /* article section*/
+   #corrective img, #vision img, #important img{
+    width:320px;
+    height: 217px;
+    margin: auto;
+    padding: 5px;
+  }
+  
   /* bottom contact section */
   h2 {
     margin-bottom: 100px;
@@ -552,10 +655,10 @@
     margin-bottom: 50px;
   }
   #contactPhone img {
-    grid-row: 1/3;
-    grid-column: 1/2;
+    /* grid-row: 1/3;
+    grid-column: 1/2; */
     margin-top: 10px;
-    margin-right: -50px;
+    margin-right: -30px;
   }
   #contactPhone p {
     grid-row: 1/2;
@@ -581,10 +684,10 @@
     margin-top: 100px;
   }
   #email img {
-    grid-row: 1/3;
-    grid-column: 1/2;
+    /* grid-row: 1/3;
+    grid-column: 1/2; */
     margin-top: 10px;
-    margin-right: -40px;
+    margin-right: -20px;
   }
   #email p {
     grid-row: 1/2;
@@ -608,10 +711,10 @@
     display: grid;
   }
   #address img {
-    grid-row: 1/3;
-    grid-column: 1/2;
+    /* grid-row: 1/3; */
+    /* grid-column: 1/2; */
     margin-top: -25px;
-    margin-right: -15px;
+    margin-right: 5px;
   }
   #address p {
     grid-row: 1/2;
@@ -629,7 +732,7 @@
     font-size: 1.2em;
   }
   .tel2 {
-    text-decoration: underline;
+    text-decoration: none;
   }
   .empty {
     grid-row: 1/3;
@@ -637,7 +740,7 @@
   }
   /* bottom hours */
   #bottomhours {
-    font-size: xx-large;
+    font-size: x-large;
     grid-row: 1/2;
     grid-column: 2/3;
     font-weight: lighter;
@@ -655,10 +758,11 @@
   }
   th {
     padding-top: 30px;
+    text-align: right;
   }
   /* bottomsocial */
   #bottomsoc {
-    font-size: xx-large;
+    font-size: x-large;
     grid-row: 1/2;
     grid-column: 3/4;
     font-weight: lighter;
@@ -716,8 +820,8 @@ button {
   border-radius: 7px;
   border-width: 2px;
   background-color: transparent;
-  color: #3358dc;
-  font-size: 25px;
+  color: #ffffff;
+  font-size: 18px;
   width: 208px;
   height: 60px;
 }
@@ -750,16 +854,8 @@ li {
     border-bottom-color: transparent;
     border-left-color: transparent;
 } */
-#cvd {
-  font-size: 24px;
-}
-#rule {
-  font-size: 18px;
-}
 
-#statement {
-  background-image: url(../images/home.png);
-}
+
 .appt {
   /* background-color: #3358DC; */
   color: white;

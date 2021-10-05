@@ -3,7 +3,7 @@
 @media only screen and (max-width: 700px){
 #practiceTop, #practiceBottom{
    margin: 0;
-   padding-bottom: 20px;
+   padding-bottom: 10px;
 }
 .title{
     padding-top: 40px;
@@ -25,9 +25,18 @@ h3{
     margin-left: 40px;
     margin-right: 40px;
 }
- 
+
+#filler{
+    justify-content: center;
+    margin: auto;
+}
 #filler img{
-    padding-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.hidden-mobile{
+    display: none;
 }
 
 #practiceTop p, #practiceBottom p{
@@ -36,7 +45,9 @@ h3{
 #eyeglass p{
     text-indent: -9px;
     padding-left: 9px;
-    
+}
+#eyeglass{
+    padding-top: 40px;
 }
 
 }
@@ -74,9 +85,14 @@ h3{
         padding-right: 360px;
     }
     
+    #filler{
+        padding-left: 80px;
+    }
+
     #filler img{
-        width: 400px;
-        padding-bottom: 40px;
+        padding: 0 5px 50px 0px;
+        width:300px;
+        margin: auto;
     }
 }
 /* ---------------------outside media queries--------- */
