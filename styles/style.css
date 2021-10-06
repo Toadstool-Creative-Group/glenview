@@ -24,7 +24,7 @@
     display: none; /* Hidden by default */
     position: absolute;
     z-index: 1; /*Sit on top*/
-    padding-top: 192px; /* Location of the box */
+    padding-top: 110px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -134,12 +134,12 @@
   }
 
   /* top section for landing page */
-  
+
   #care {
     font-size: 16px;
     text-align: center;
   }
-  
+
   #covid {
     position: relative;
     font-weight: 600;
@@ -161,14 +161,14 @@
     bottom: 25px;
     font-size: 12px;
   }
-  #headinggroup{
+  #headinggroup {
     margin: 20px;
   }
-  #glenview-header{
+  #glenview-header {
     margin-bottom: 20px;
   }
 
-  #heading{
+  #heading {
     width: fit-content;
     height: fit-content;
     display: block;
@@ -177,7 +177,7 @@
     text-align: center;
     margin-top: 15%;
   }
-  #butt{
+  #butt {
     margin-top: 15%;
     margin-bottom: 15%;
   }
@@ -187,11 +187,11 @@
     margin: auto;
     margin-bottom: 5%;
   }
-  #header-image{
+  #header-image {
     margin: 30px;
   }
 
-  #header-image img{
+  #header-image img {
     width: 100%;
     height: auto;
   }
@@ -199,26 +199,31 @@
   #service {
     margin: 20% 5%;
   }
-  .galleryheader{
+  .galleryheader {
     font-size: 24px;
     text-align: center;
   }
 
-  .gallery{
-    clear: both;
+  .gallery {
+    /* clear: both; */
   }
 
-  #comp img, #lasik img, #eval img, #pediatric img{
-    width:300px;
+  #comp img,
+  #lasik img,
+  #eval img,
+  #pediatric img {
+    width: 300px;
     height: 200px;
-    margin: auto;
+    margin: 5%;
   }
 
-  #comp p, #lasik p, #eval p, #pediatric p{
+  #comp p,
+  #lasik p,
+  #eval p,
+  #pediatric p {
     padding-top: 40px;
     display: flex-box;
   }
-
 
   /* Testimonial section */
   .galleryheader {
@@ -254,11 +259,11 @@
   }
   .gallery li {
     scroll-snap-align: center;
-    display: inline-block;
+    /* display: inline-block; */
     border-radius: 3px;
     font-size: 24px;
     color: #ffffff;
-    margin-right: 10%;
+    /* margin-right: 10%; */
     line-height: 25px;
   }
   .gallery .name {
@@ -267,10 +272,15 @@
     font-weight: bolder;
   }
 
-  #corrective img, #vision img, #important img{
-    width:300px;
+  #corrective img,
+  #vision img,
+  #important img {
+    width: 300px;
     height: 200px;
     margin: auto;
+  }
+  .testimony {
+    display: none;
   }
 
   /* about section */
@@ -294,11 +304,11 @@
     width: 100%;
     height: auto;
   }
-  #glenpar{
+  #glenpar {
     margin-top: 10%;
     margin-bottom: 10%;
   }
- 
+
   #glen {
     display: none;
   }
@@ -332,6 +342,21 @@
   #email,
   #address {
     margin-right: 10%;
+  }
+  /* testing modal */
+  .modal2 {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /*Sit on top*/
+    padding-top: 100px; /*Location of the box*/
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /*Enable scroll if needed*/
+    /* background-color: rgb(0,0,0); Fallback color */
+    /* background-color: rgba(0,0,0,0.4); Black w/ opacity */
+    border-radius: 10px;
   }
 
   .imagine {
@@ -480,7 +505,7 @@
     /* flex: 1; */
     /* margin-right: 50px; */
   }
-  
+
   #cvd {
     position: absolute;
     padding-left: 25px;
@@ -508,16 +533,16 @@
     font-size: 48px;
     margin-bottom: 10px;
   }
-  #headinggroup{
+  #headinggroup {
     display: flex;
   }
-  #heading{
+  #heading {
     width: 100%;
     text-align: center;
     margin: auto 0 auto 80px;
     flex: 1;
   }
-  
+
   #care {
     text-align: left;
     font-size: 20px;
@@ -530,12 +555,11 @@
   }
   #butt button {
     margin: 10px 10px 10px 0;
-
   }
-  #header-image{
+  #header-image {
     flex: 2;
   }
-  #header-image img{
+  #header-image img {
     width: 100%;
     height: auto;
     margin: 0;
@@ -556,8 +580,11 @@
     margin: auto;
   }
 
-  #comp img, #lasik img, #eval img, #pediatric img{
-    width:320px;
+  #comp img,
+  #lasik img,
+  #eval img,
+  #pediatric img {
+    width: 320px;
     height: 217px;
     margin: auto;
     padding: 5px;
@@ -597,16 +624,17 @@
     color: lightskyblue;
   }
   /* review section */
-.testimony{
-  display: -webkit-flex;
-  margin: auto;
-}
-.testimony p{
-  margin: 15px 0;
-}
-#review1 p, #review2 p{
-  padding-right: 15px ;
-}
+  .testimony {
+    display: -webkit-flex;
+    margin: auto;
+  }
+  .testimony p {
+    margin: 15px 0;
+  }
+  #review1 p,
+  #review2 p {
+    padding-right: 15px;
+  }
   #review1,
   #review2,
   #review3 {
@@ -614,18 +642,20 @@
     font-size: 16px;
     text-align: left;
   }
-  .date{
+  .date {
     padding: 25px 0;
   }
 
-   /* article section*/
-   #corrective img, #vision img, #important img{
-    width:320px;
+  /* article section*/
+  #corrective img,
+  #vision img,
+  #important img {
+    width: 320px;
     height: 217px;
     margin: auto;
     padding: 5px;
   }
-  
+
   /* bottom contact section */
   h2 {
     margin-bottom: 100px;
@@ -854,7 +884,6 @@ li {
     border-bottom-color: transparent;
     border-left-color: transparent;
 } */
-
 
 .appt {
   /* background-color: #3358DC; */
