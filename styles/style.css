@@ -519,7 +519,8 @@
   #care {
     text-align: left;
     font-size: 20px;
-    /* margin: auto 20%; */
+    padding-right: 70px;
+    margin: auto 15% 0 0;
   }
   #butt {
     display: flex;
@@ -531,14 +532,12 @@
 
   }
   #header-image{
-    flex: 2;
+    flex: 1;
   }
   #header-image img{
     width: 100%;
     height: auto;
-    margin: 0;
-    padding-top: 75px;
-    padding-right: 40px;
+    padding-right: 60px;
   }
 
   /* service section */
@@ -560,68 +559,98 @@
     margin: auto;
     padding: 5px;
   }
+  #comp p, #lasik p, #eval p, #pediatric p{
+    text-align: left;
+    padding-top: 8px;
+    padding-left: 5px;
+  }
+
+  #service button{
+    margin-top: 60px;
+  }
 
   /* about section */
   #about {
     display: grid;
-    margin: 10% 2%;
+    margin: 10% 5%;
   }
   /* #about img{
     width: ;
   } */
   #glenimg {
-    width: 300px;
+    width: 350px;
     grid-row: 1/4;
     grid-column: 1/2;
-    margin-left: 10%;
+    margin-left: 65px;
   }
   #glen {
     font-size: 36px;
     font-weight: lighter;
-    margin: 10% 10% 0% 20%;
+    margin: 15% 10% 0% 20%;
   }
   #glenpar {
     font-size: 20px;
     text-align: left;
     grid-row: 2/3;
-    margin: -10% 10% 0% 20%;
+    margin: -5% 10% 0% 20%;
   }
 
   #glena {
     grid-row: 3/4;
     grid-column: 2/3;
     font-size: 20px;
-    margin: -10% 10% 0% 20%;
+    margin: -5% 10% 0% 20%;
     color: lightskyblue;
   }
   /* review section */
+  #review{
+    padding-bottom: 50px;
+  }
+  #review button{
+    margin-top: 40px;
+  }
+  
 .testimony{
-  display: -webkit-flex;
+  display: flex;
+  justify-content: space-evenly;
   margin: auto;
 }
-.testimony p{
+/* .testimony p{
   margin: 15px 0;
+} */
+#review1 p, #review2 p, #review3 p{
+  /* word-wrap: break-word; */
+  text-align: left;
 }
-#review1 p, #review2 p{
-  padding-right: 15px ;
-}
-  #review1,
-  #review2,
+  #review1, #review2,
   #review3 {
-    margin: 10px 5px 10px 0;
+    margin: 0 10px;
     font-size: 16px;
-    text-align: left;
+    flex:1;
   }
   .date{
     padding: 25px 0;
   }
 
    /* article section*/
+   #article{
+     padding-top: 3%;
+   }
+
    #corrective img, #vision img, #important img{
     width:320px;
     height: 217px;
     margin: auto;
     padding: 5px;
+  }
+  #corrective p, #vision p, #important p{
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 8px;
+  }
+
+  #article button{
+    margin-top: 60px;
   }
   
   /* bottom contact section */
@@ -771,6 +800,10 @@
   }
   #fb {
     margin-left: 5%;
+  }
+  #yelp img{
+    width: 10%;
+    height: auto;
   }
   .gallery {
     display: none;
