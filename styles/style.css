@@ -279,6 +279,10 @@
     height: 200px;
     margin: auto;
   }
+  .challenge {
+    /* display: flex; */
+    /* margin-left: 200px; */
+  }
   .testimony {
     display: none;
   }
@@ -558,9 +562,8 @@
     margin: 10px 10px 10px 0;
   }
 
-  #header-image{
+  #header-image {
     flex: 1;
-
   }
   #header-image img {
     width: 100%;
@@ -590,13 +593,16 @@
     margin: auto;
     padding: 5px;
   }
-  #comp p, #lasik p, #eval p, #pediatric p{
+  #comp p,
+  #lasik p,
+  #eval p,
+  #pediatric p {
     text-align: left;
     padding-top: 8px;
     padding-left: 5px;
   }
 
-  #service button{
+  #service button {
     margin-top: 60px;
   }
 
@@ -634,41 +640,43 @@
     color: lightskyblue;
   }
   /* review section */
-  #review{
+  #review {
     padding-bottom: 50px;
   }
-  #review button{
+  #review button {
     margin-top: 40px;
   }
-  
-.testimony{
-  display: flex;
-  justify-content: space-evenly;
-  margin: auto;
-}
-/* .testimony p{
+
+  .testimony {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+  /* .testimony p{
   margin: 15px 0;
 } */
-#review1 p, #review2 p, #review3 p{
-  /* word-wrap: break-word; */
-  text-align: left;
-}
- 
+  #review1 p,
+  #review2 p,
+  #review3 p {
+    /* word-wrap: break-word; */
+    text-align: left;
+  }
+
   #review1,
   #review2,
   #review3 {
     margin: 0 10px;
     font-size: 16px;
-    flex:1;
+    flex: 1;
   }
   .date {
     padding: 25px 0;
   }
 
-   /* article section*/
-   #article{
-     padding-top: 3%;
-   }
+  /* article section*/
+  #article {
+    padding-top: 3%;
+  }
 
   #corrective img,
   #vision img,
@@ -679,16 +687,17 @@
     padding: 5px;
   }
 
-  #corrective p, #vision p, #important p{
+  #corrective p,
+  #vision p,
+  #important p {
     text-align: left;
     padding-left: 5px;
     padding-top: 8px;
   }
 
-  #article button{
+  #article button {
     margin-top: 60px;
   }
-  
 
   /* bottom contact section */
   h2 {
@@ -809,6 +818,9 @@
     grid-column: 2/3;
     font-weight: lighter;
   }
+  .modal2 {
+    display: none;
+  }
   #open {
     grid-row: 2/5;
     grid-column: 2/3;
@@ -838,7 +850,7 @@
   #fb {
     margin-left: 5%;
   }
-  #yelp img{
+  #yelp img {
     width: 10%;
     height: auto;
   }
