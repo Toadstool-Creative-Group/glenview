@@ -115,19 +115,15 @@
     display: flex;
     /* justify-content: space-between; */
   }
-  /* #right {
-    display: flex;
-    margin: 7% 0% 5% 0%;
-  } */
-  /* .logo{
-    margin-right: 2em;
-    margin-left: 2em;
-  } */
+
   .logo img {
     /* margin: auto; */
     width: 96px;
     height: 66px;
     /* margin-left:; */
+  }
+  #imagephone {
+    margin-top: 10px;
   }
   #imagehours {
     display: none;
@@ -202,10 +198,6 @@
   .galleryheader {
     font-size: 24px;
     text-align: center;
-  }
-
-  .gallery {
-    /* clear: both; */
   }
 
   #comp img,
@@ -773,6 +765,12 @@
     padding-top: 8px;
   }
 
+  .gallery2 {
+    display: none;
+  }
+  .gallery3 {
+    display: none;
+  }
   #article button {
     margin-top: 60px;
   }
