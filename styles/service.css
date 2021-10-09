@@ -4,7 +4,7 @@
 
 
 /* mobile view */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 640px){
    .noticeMe{
        font-size: 18px;
        font-weight: bold;
@@ -98,12 +98,119 @@
     }
 
     hr{
-        margin: 0 38px;
-        width: 70%; 
+        margin: 0 2em;
+        width: 75%; 
     }
 }
+
+/* --------------------tablet view ----------------------- */
+@media only screen and (min-width: 641px){
+    .noticeMe{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #serviceTop h2{
+        margin: 0px;
+        padding-top: 40px;
+        text-align: center;
+    }
+    #serviceTop{
+     padding-bottom: 24px;
+    }
+    
+    p.types{
+        margin: 20px 40px;
+         text-align: center;
+         /* word-spacing: 5px; */
+         font-size: 18px;
+     }
+    
+    ul li{
+        line-height: 1.1;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 10px;
+        padding-bottom: 20px;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    /* #serviceBottom h3{
+        margin: 10px 0;
+        padding-bottom: 8px;
+    } */
+    #languages, #insurance, #payment{
+     margin-left: 20px;
+     margin-right: 20px;
+     padding: 15px;
+    }
+ 
+    #serviceBottom{
+        padding: 30px 0;
+        font-size: 18px;
+    }
+ 
+    .exams{
+     margin: 0 10px;
+     padding: 10px 10px;
+ }
+    .description{
+     margin-top: -5px;
+     margin-left: 20px;
+     margin-right: 20px;
+     padding-bottom: 20px;
+ }
+     .titles{
+         font-size: 18px;
+         font-weight: bold;
+     }
+ 
+     .bottomDescription{
+     margin-top: 20px;
+     font-size: 16px;
+ }
+ 
+    #serviceImage{
+        margin-bottom: -5px;
+    }
+ 
+    #serviceImage img{
+        width: 100%;
+    }
+    /*buttons*/
+     .button{
+     margin: 10px;
+     text-align: center;
+     color: white;    
+     }
+    .primary{
+     width: 200px;
+     height: 50px;
+     font-size: 16px;
+     margin: 8px;
+     color: white;    
+     }
+     .secondary{
+     width: 200px;
+     height: 50px;
+     font-size: 16px;
+     margin: 8px;
+     color: white;
+     }
+ 
+     hr{
+         margin: 0 2em;
+         width: 75%; 
+     }
+
+     #contact{
+         margin: 0;
+         /* padding: 5em 3em; */
+     }
+ }
+
+
 /* -------------------- desktop view ---------------------- */
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 1025px){
     #serviceTop h2{
         text-align: center;
         padding-top: 50px;

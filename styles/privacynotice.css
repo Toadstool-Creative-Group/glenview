@@ -1,5 +1,5 @@
 /* mobile view */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 640px){
 body{
     line-height: 1.4;
 }
@@ -27,8 +27,38 @@ h3.all-caps{
 }
 }
 
+/* tablet view */
+@media only screen and (min-width: 641px){
+    body{
+        line-height: 1.4;
+    }
+    #privacy{
+        padding-top: 40px;
+        margin-bottom: 25px;
+    }
+    #privacy-section{
+        margin: 0 20px;
+        padding:  0 30px 30px;
+    }
+    
+    h3.all-caps{
+        margin-top: 10px;
+        font-size: medium;
+    }
+    #privacy-section p{
+        margin: 8px 0;
+    }
+    /* ul{
+        margin: 0 20px;
+    } */
+    .list ul li{
+        list-style-type: none;
+    }
+    }
+
+
 /* -------------------- desktop view ---------------------- */
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 1025px){
 
 body{
     line-height: 1.4;
@@ -71,4 +101,11 @@ body{
 content: "\2043";
     color: lightskyblue;
     padding-right: 5px;
+}
+
+hr{
+    height: 1px; 
+    border: none; 
+    color:#6E6B6B; 
+    background-color: #6E6B6B; 
 }

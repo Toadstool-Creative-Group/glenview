@@ -4,7 +4,49 @@
 } */
 
 /* mobile view */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 640px){
+    #eyearticle{
+        margin: 0;
+       }
+
+    #top-articles{
+        margin: 0 20px; 
+    }
+    #beckerman-articles, #harthan-articles, #smolyansky-articles{
+        margin: 0 20px 20px;
+    }   
+    
+    #youtube{
+        margin: 20px 20px 0;
+    }
+
+   #eyearticle h2{
+       text-align: center;
+       padding-top: 40px;
+       margin-bottom: 25px;
+   }
+   .title{
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 25px;        
+}
+   #eyearticle a{
+       /* font-weight: bold; */
+       line-height: 1.6;
+       flex-wrap: nowrap;
+   }
+   #eyearticle ul li{
+    margin: 0;
+}
+   #eyearticle ul{
+       padding: 10px 30px 30px;
+       text-align: left;
+       width: auto;
+   }
+}
+
+/* tablet view */
+@media only screen and (min-width: 641px){
     #eyearticle{
         margin: 0;
        }
@@ -46,7 +88,7 @@
 }
 
 /* -------------------- desktop view ---------------------- */
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 1025px){
     #eyearticle h2{
         font-size: xx-large;
         text-align: center;
