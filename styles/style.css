@@ -202,7 +202,7 @@
   }
   /*---------------- services section */
   #service {
-    margin: 20% 5%;
+    margin: 45% 5%;
   }
   .galleryheader {
     font-size: 24px;
@@ -222,9 +222,10 @@
   #lasik p,
   #eval p,
   #pediatric p {
-    padding-top: 40px;
+    padding-top: 10px;
     display: flex-box;
     margin-left: 15px;
+    font-size: 16px;
   }
 
   /* Testimonial section */
@@ -232,7 +233,7 @@
     margin-bottom: 40px;
   }
   #review {
-    margin: 10% 5%;
+    margin: 45% 5%;
   }
   .gallery {
     padding: 1rem;
@@ -246,6 +247,10 @@
     scroll-snap-type: both mandatory;
     scroll-padding: 1rem;
   }
+  .name2 {
+    padding-top: 70px;
+  }
+
   .gallery::-webkit-scrollbar {
     width: 1em;
     height: 0.7em;
@@ -286,7 +291,7 @@
     font-size: 24px;
     color: #ffffff;
     /* margin-right: 10%; */
-    line-height: 25px;
+    /* line-height: 25px; */
   }
   .gallery2 li {
     scroll-snap-align: center;
@@ -307,9 +312,7 @@
     line-height: 25px;
   }
   .gallery .name {
-    margin-top: 60px;
-    color: #505050;
-    font-weight: bolder;
+    margin-top: 30px;
   }
 
   #corrective img,
@@ -317,17 +320,30 @@
   #important img {
     width: 280px;
     height: 200px;
-    margin: auto;
+    margin: 5%;
   }
 
   #corrective p,
   #vision p,
   #important p {
-    padding-top: 40px;
+    padding-top: 10px;
     display: flex-box;
-    /* margin-left: ; */
+    margin-left: 15px;
+    font-size: 16px;
   }
 
+  .gallery {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 80vw);
+    grid-template-rows: 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    overflow: auto;
+    height: 40vh;
+    scroll-snap-type: both mandatory;
+    scroll-padding: 1rem;
+  }
   .gallery2 {
     padding: 1rem;
     display: grid;
@@ -336,7 +352,7 @@
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
     overflow: auto;
-    height: 80vh;
+    height: 65vh;
     scroll-snap-type: both mandatory;
     scroll-padding: 1rem;
   }
@@ -348,7 +364,7 @@
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
     overflow: auto;
-    height: 80vh;
+    height: 65vh;
     scroll-snap-type: both mandatory;
     scroll-padding: 1rem;
   }
@@ -362,29 +378,24 @@
     grid-row: 2/3;
   }
 
-  .testimony {
-    display: none;
-  }
-
   /* about section */
   #about {
-    margin: 20% 10%;
+    margin: 45% 10%;
   }
   #about a {
     color: #3358dc;
   }
   #about p {
     text-align: left;
-    font-size: 24px;
-    color: #929292;
   }
   #aboutname {
     color: #ffffff;
+    font-size: 20px;
   }
   #about img {
     display: block;
     margin: auto;
-    width: 100%;
+    width: 90%;
     height: auto;
   }
   #glenpar {
@@ -392,12 +403,28 @@
     margin-bottom: 10%;
   }
 
+  #glenpar p {
+    font-size: 16px;
+  }
+
   #glen {
     display: none;
   }
+
+  /* Review section */
+  .testimony {
+    display: none;
+  }
+
+  .text,
+  .name,
+  .name2 {
+    font-size: 16px;
+  }
+
   /* Article section */
   #article {
-    margin: 20% 5%;
+    margin: 45% 5%;
   }
 
   /* contact section */
@@ -446,6 +473,18 @@
     margin-right: 9%;
     margin-bottom: 15%;
   }
+  .imagine-yelp {
+    width: 12%;
+    margin-left: 2px;
+    margin-bottom: 15%;
+    padding-bottom: 5px;
+  }
+
+  .hey {
+    margin: 0;
+    text-decoration: none;
+  }
+
   .carou {
     display: none;
   }
@@ -1085,6 +1124,7 @@
 }
 
 /* -------------------------------------------------------- desktop view -------------------------------------------------------------- */
+
 @media only screen and (min-width: 1025px) {
   .menu-icon {
     display: none;
@@ -1367,16 +1407,22 @@
     /* word-wrap: break-word; */
     text-align: left;
   }
+  #review2 > .date {
+    padding-top: 78px;
+  }
+  #review3 > .date {
+    padding-top: 52px;
+  }
 
   #review1,
   #review2,
   #review3 {
-    margin: 0 10px;
-    font-size: 16px;
+    margin: 0 14px;
+    font-size: 20px;
     flex: 1;
   }
   .date {
-    padding: 25px 0;
+    padding: 1.5em 0;
   }
 
   /* article section*/
@@ -1554,17 +1600,22 @@
     grid-row: 1/2;
     grid-column: 3/4;
     font-weight: lighter;
+    margin-left: 60px;
+    padding-left: 25px;
   }
   #follow {
     grid-row: 2/5;
     grid-column: 3/4;
+    margin-left: 75px;
   }
   #fb {
     margin-left: 5%;
   }
   #yelp img {
-    width: 10%;
+    width: 9%;
     height: auto;
+    margin-left: 25px;
+    margin-bottom: 6px;
   }
   .gallery {
     display: none;
