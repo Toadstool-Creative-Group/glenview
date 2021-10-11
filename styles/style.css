@@ -116,6 +116,9 @@
     /* justify-content: space-between; */
   }
 
+  .logo{
+    margin-right: 35px;
+  }
   .logo img {
     /* margin: auto; */
     width: 96px;
