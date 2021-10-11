@@ -3,7 +3,7 @@
 } */
 
 /* mobile view */
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 799px){
     .promo-container{
         margin: 0;
         padding: 20px;
@@ -60,14 +60,14 @@
 }
 
 /* tablet view */
-@media only screen and (min-width: 641px){
+@media only screen and (min-width: 800px){
     .promo-container{
         margin: 0;
         padding: 20px;
     }
 
     #promo{
-        margin: 0 20px;
+        margin: 60px 20px;
         padding: 0 30px;
     }
    .title{
