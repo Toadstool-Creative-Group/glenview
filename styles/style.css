@@ -6,7 +6,7 @@
 }
 
 /* mobile view */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 799px) {
   #hourTable,
   .gout,
   .tel {
@@ -128,6 +128,15 @@
   #imagehours {
     display: none;
   }
+  #myModal li a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  #myModal li a:hover {
+    opacity: 0.2;
+    padding-bottom: 10px;
+  }
 
   /* top section for landing page */
 
@@ -191,7 +200,7 @@
     width: 100%;
     height: auto;
   }
-  /* services section */
+  /*---------------- services section */
   #service {
     margin: 20% 5%;
   }
@@ -233,7 +242,7 @@
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
     overflow: auto;
-    height: 80vh;
+    height: 65vh;
     scroll-snap-type: both mandatory;
     scroll-padding: 1rem;
   }
@@ -316,7 +325,7 @@
   #important p {
     padding-top: 40px;
     display: flex-box;
-    margin-left: 10px;
+    /* margin-left: ; */
   }
 
   .gallery2 {
@@ -447,9 +456,636 @@
 }
 
 /* --------------------- tablet view ---------------------- */
+@media only screen and (min-width: 800px) {
+  .more {
+    margin-top: 2%;
+  }
+  h1 {
+    margin-bottom: 10%;
+  }
+  /* navbar */
+  .logo {
+    /* margin: 70px 0px 70px 62px; */
+    margin-left: 15%;
+  }
+  .logo img {
+    width: 9em;
+  }
+  .current {
+    /* border-bottom: solid #3358dc 7px; */
+    /* padding-bottom: 1em; */
+  }
+  #navbar {
+    display: flex;
+    z-index: 2;
+    padding: 2em;
+  }
+  #right {
+    display: flex;
+    /* margin-right: 1em; */
+    margin-left: auto;
+    /* margin-top: 50px; */
+  }
+  /* for phone on navbar */
+  #phone {
+    display: grid;
+    margin-right: 1em;
+  }
+  #imagephone {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-right: 1em;
+  }
+  #call {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 1em;
+    margin-top: -10px;
+  }
+  #telephone {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: -90px;
+    margin-bottom: auto;
+    font-size: 1em;
+    text-decoration: underline;
+  }
+  /* office hours on nav bar */
+  #mobileimagehours {
+    display: none;
+  }
+  #hours {
+    display: grid;
+  }
+  #imagehours {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-right: 1em;
+  }
+  #officehours {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 1em;
+    margin-top: -10px;
+  }
+  #hourTable {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 1em;
+    line-height: 0em;
+    /* margin-bottom: 1em; */
+  }
+  #hourTable th {
+    font-weight: lighter;
+    text-align: left;
+  }
 
-/* -------------------- desktop view ---------------------- */
-@media only screen and (min-width: 1000px) {
+  #myModalHours {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    /* margin: 2%; */
+  }
+  /* testing modal */
+  .modal {
+    display: none; /* Hidden by default */
+    position: absolute;
+    z-index: 1; /*Sit on top*/
+    padding-top: 110px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /*Enable scroll if needed*/
+    /* background-color: rgb(0,0,0); Fallback color */
+    /* background-color: rgba(0,0,0,0.4); Black w/ opacity */
+    border-radius: 10px;
+  }
+
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #3358dc;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #3358dc;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    border-radius: 10px;
+    font-size: 24px;
+  }
+
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+  @keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal-header {
+    color: white;
+  }
+  #myModal li a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  #myModal li a:hover {
+    opacity: 0.2;
+    padding-bottom: 10px;
+  }
+  li a {
+    display: flex;
+  }
+  .darkblue {
+    background-color: #3358dc;
+    /* padding: 50px; */
+  }
+  .lightblue {
+    background-color: #538ec3;
+  }
+  .more {
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+  }
+  .nav-links {
+    display: none;
+  }
+
+  /*-------statement------------ */
+  #covid {
+    position: relative;
+    font-weight: 600;
+    font-size: 24px;
+    width: 0;
+    height: 0;
+    border-top: 150px solid rgba(255, 0, 0, 0.4);
+    border-right: 700px solid transparent;
+  }
+
+  #cvd {
+    position: absolute;
+    padding-left: 25px;
+    top: -120px;
+    white-space: nowrap;
+    font-size: 24px;
+  }
+  #rule {
+    position: absolute;
+    padding-left: 25px;
+    top: -80px;
+    font-size: 18px;
+  }
+
+  #statement {
+    /* padding-top: 1%; */
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+    /* display: flex; */
+    height: auto;
+  }
+  #statement h2 {
+    text-align: left;
+    font-weight: lighter;
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  #headinggroup {
+    display: flex;
+  }
+  #heading {
+    width: 100%;
+    text-align: center;
+    margin: auto 0 auto 80px;
+    flex: 1;
+  }
+
+  #care {
+    text-align: left;
+    font-size: 20px;
+    padding-right: 70px;
+    margin: auto 15% 0 0;
+  }
+  #butt {
+    display: flex;
+    justify-content: left;
+    margin-top: 40px;
+  }
+  #butt button {
+    margin: 10px 10px 10px 0;
+  }
+
+  #header-image {
+    flex: 1;
+  }
+  #header-image img {
+    width: 100%;
+    height: auto;
+    padding-right: 60px;
+  }
+
+  /* services section */
+  #service {
+    margin: 20% 5%;
+  }
+  .galleryheader {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #comp img,
+  #lasik img,
+  #eval img,
+  #pediatric img {
+    width: 280px;
+    height: 200px;
+    margin: auto;
+  }
+
+  #comp p,
+  #lasik p,
+  #eval p,
+  #pediatric p {
+    padding-top: 40px;
+    display: flex-box;
+    margin: auto;
+  }
+
+  /* Testimonial section */
+  .galleryheader {
+    margin-bottom: 40px;
+  }
+  #review {
+    margin: 10% 5%;
+  }
+  .carou {
+    display: none;
+  }
+  .gallery {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 88vw);
+    grid-template-rows: 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    overflow: auto;
+    height: 20vh;
+    scroll-snap-type: both mandatory;
+    scroll-padding: 1rem;
+  }
+  .gallery::-webkit-scrollbar {
+    width: 0.5em;
+    height: 0.7em;
+  }
+  .gallery::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 9px rgba(240, 240, 240, 1);
+  }
+  .gallery::-webkit-scrollbar-thumb {
+    background-color: #b8b8b8;
+  }
+  .gallery2::-webkit-scrollbar {
+    width: 1em;
+    height: 0.7em;
+  }
+  .gallery2::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 9px rgba(240, 240, 240, 1);
+  }
+  .gallery2::-webkit-scrollbar-thumb {
+    background-color: #b8b8b8;
+  }
+  .gallery3::-webkit-scrollbar {
+    width: 1em;
+    height: 0.7em;
+  }
+  .gallery3::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 9px rgba(240, 240, 240, 1);
+  }
+  .gallery3::-webkit-scrollbar-thumb {
+    background-color: #b8b8b8;
+  }
+  .active {
+    scroll-snap-type: unset;
+  }
+  .gallery li {
+    scroll-snap-align: center;
+    border-radius: 3px;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 25px;
+  }
+  .gallery2 li {
+    scroll-snap-align: center;
+    border-radius: 3px;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 25px;
+  }
+  .gallery3 li {
+    scroll-snap-align: center;
+    border-radius: 3px;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 25px;
+  }
+  .gallery .name {
+    margin-top: 60px;
+    color: #505050;
+    font-weight: bolder;
+  }
+
+  #corrective img,
+  #vision img,
+  #important img {
+    width: 280px;
+    height: 200px;
+    margin: auto;
+  }
+
+  #corrective p,
+  #vision p,
+  #important p {
+    padding-top: 40px;
+    display: flex-box;
+    margin: auto;
+  }
+
+  .gallery2 {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 40vw);
+    grid-template-rows: 2fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    overflow: auto;
+    height: 40vh;
+    scroll-snap-type: both mandatory;
+    scroll-padding: 1rem;
+  }
+  .gallery3 {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 40vw);
+    grid-template-rows: 2fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    overflow: auto;
+    height: 40vh;
+    scroll-snap-type: both mandatory;
+    scroll-padding: 1rem;
+  }
+  #article {
+    margin: 20% 5%;
+  }
+  .challenge {
+    display: grid;
+  }
+  .challenge img {
+    grid-row: 1/2;
+  }
+  .challenge p {
+    grid-row: 2/3;
+  }
+
+  .testimony {
+    display: none;
+  }
+
+  /*----------------- about section */
+  #about {
+    display: grid;
+    margin: 10% 5%;
+  }
+  /* #about img{
+    width: ;
+  } */
+  #glenimg {
+    width: 350px;
+    grid-row: 1/4;
+    grid-column: 1/2;
+    margin-left: 65px;
+  }
+  #glen {
+    font-size: 36px;
+    font-weight: lighter;
+    margin: 15% 10% 0% 20%;
+  }
+  #glenpar {
+    font-size: 20px;
+    text-align: left;
+    grid-row: 2/3;
+    margin: -5% 10% 0% 20%;
+  }
+
+  #glena {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    font-size: 20px;
+    margin: -5% 10% 0% 20%;
+    color: lightskyblue;
+  }
+
+  /* ----------bottom contact section */
+  h2 {
+    margin-bottom: 100px;
+  }
+  .hey {
+    display: none;
+  }
+  #hid {
+    display: none;
+  }
+  #contact {
+    padding: 5% 10%;
+    display: grid;
+  }
+  #bottomheader {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: xx-large;
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  /* bottom phone */
+  #contactPhone {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    display: grid;
+    margin-bottom: 50px;
+  }
+  #contactPhone img {
+    /* grid-row: 1/3;
+    grid-column: 1/2; */
+    margin-top: 10px;
+    margin-right: -30px;
+  }
+  #contactPhone p {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size: 1.2em;
+  }
+  #tellie {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-top: -20px;
+    font-size: 1.2em;
+  }
+  .empty {
+    grid-row: 1/3;
+    grid-column: 3/10;
+  }
+  /* bottom email */
+  #email {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    display: grid;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  #email img {
+    /* grid-row: 1/3;
+    grid-column: 1/2; */
+    margin-top: 10px;
+    margin-right: -20px;
+  }
+  #email p {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size: 1.2em;
+  }
+  #ema {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-top: -20px;
+    font-size: 1.2em;
+  }
+  .empty {
+    grid-row: 1/3;
+    grid-column: 3/10;
+  }
+  /* bottom address */
+  #address {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    display: grid;
+  }
+  #address img {
+    /* grid-row: 1/3; */
+    /* grid-column: 1/2; */
+    margin-top: -25px;
+    margin-right: 5px;
+  }
+  #address p {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  #add.tel.tel2 {
+    margin-top: 10px;
+  }
+  #add {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-size: 1.2em;
+  }
+  .tel2 {
+    text-decoration: none;
+  }
+  .empty {
+    grid-row: 1/3;
+    grid-column: 3/10;
+  }
+  /* bottom hours */
+  #bottomhours {
+    font-size: x-large;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-weight: lighter;
+  }
+  .modal2 {
+    display: none;
+  }
+  #open {
+    grid-row: 2/5;
+    grid-column: 2/3;
+    font-size: 1.2em;
+    text-align: left;
+    margin-top: -30px;
+  }
+  td {
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  th {
+    padding-top: 30px;
+    text-align: right;
+  }
+  /* bottomsocial */
+  #bottomsoc {
+    font-size: x-large;
+    grid-row: 1/2;
+    grid-column: 3/4;
+    font-weight: lighter;
+  }
+  #follow {
+    grid-row: 2/5;
+    grid-column: 3/4;
+  }
+  #fb {
+    margin-left: 5%;
+  }
+  #yelp img {
+    width: 10%;
+    height: auto;
+  }
+  #notice {
+    text-align: right;
+    grid-column: 3/3;
+  }
+}
+
+/* -------------------------------------------------------- desktop view -------------------------------------------------------------- */
+@media only screen and (min-width: 1025px) {
   .menu-icon {
     display: none;
   }
