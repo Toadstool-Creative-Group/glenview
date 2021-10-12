@@ -95,7 +95,7 @@
   }
 
   /* The Close Button */
-  .close {
+  .close{
     color: white;
     float: right;
     font-size: 28px;
@@ -110,6 +110,7 @@
     text-decoration: none;
     cursor: pointer;
   }
+  
   .modal-header {
     color: white;
   }

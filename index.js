@@ -26,10 +26,11 @@ btnContactHours.onclick = function () {
 
 // When the user clicks on <span> (x), close the modal
 // Need to figure out why the (x) is not closing out
-span.onclick = function () {
-  modal.style.display = "none";
-  modalHours.style.display = "none";
-  modalHours2.style.display = "none";
+
+function closing () {
+    modal.style.display = "none";
+    modalHours.style.display = "none";
+    modalHours2.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
