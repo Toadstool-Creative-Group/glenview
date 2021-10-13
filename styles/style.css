@@ -482,8 +482,10 @@
     text-decoration: underline;
     color: #686868;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    text-decoration: none;
   }
+  
   #contact h2 {
     font-weight: lighter;
     text-align: center;
@@ -494,6 +496,10 @@
   }
   #reach {
     display: flex;
+    margin-bottom: 15px;
+  }
+  #off{
+    margin-bottom: 15px;
   }
   #contactPhone,
   #email,
@@ -532,15 +538,10 @@
     margin-bottom: 15%;
   }
   .imagine-yelp {
-    width: 40px;
+    width: 32px;
     margin-left: 5px;
     margin-bottom: 15%;
-    padding-bottom: 8px;
-  }
-
-  .hey {
-    margin: 0;
-    text-decoration: none;
+    padding-bottom: 0px;
   }
 
   .carou {
@@ -550,6 +551,16 @@
     font-size: 12px;
     text-align: right;
   }
+
+  #contact img{
+    width: 40px;
+    /* padding-top: 12px; */
+  }
+  #yelp img{
+    width: 32px;
+    padding-bottom: 5px;
+  }
+ 
 }
 
 /* --------------------- tablet view ---------------------- */
@@ -1222,6 +1233,7 @@
     text-align: right;
     grid-column: 3/3;
   }
+
 }
 
 /* -------------------------------------------------------- desktop view -------------------------------------------------------------- */
