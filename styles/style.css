@@ -89,13 +89,13 @@
     margin-left: 2%;
     text-align: right;
   }
-  #home-modal img{
+  #home-modal img {
     width: 30px;
     color: white;
   }
 
   /* The Close Button */
-  .close{
+  .close {
     color: white;
     float: right;
     font-size: 28px;
@@ -110,7 +110,7 @@
     text-decoration: none;
     cursor: pointer;
   }
-  
+
   .modal-header {
     color: white;
   }
@@ -170,7 +170,7 @@
     opacity: 0.2;
     padding-bottom: 10px;
   }
-  
+
   /* ---office hour modal--- */
 
   #myModalHours .modal-content {
@@ -485,7 +485,7 @@
     margin-bottom: 15px;
     text-decoration: none;
   }
-  
+
   #contact h2 {
     font-weight: lighter;
     text-align: center;
@@ -498,7 +498,7 @@
     display: flex;
     margin-bottom: 15px;
   }
-  #off{
+  #off {
     margin-bottom: 15px;
   }
   #contactPhone,
@@ -552,15 +552,14 @@
     text-align: right;
   }
 
-  #contact img{
+  #contact img {
     width: 40px;
     /* padding-top: 12px; */
   }
-  #yelp img{
+  #yelp img {
     width: 32px;
     padding-bottom: 5px;
   }
- 
 }
 
 /* --------------------- tablet view ---------------------- */
@@ -703,7 +702,7 @@
   .modal-image {
     margin-left: 15px;
   }
-  #home-modal img{
+  #home-modal img {
     width: 30px;
   }
 
@@ -761,10 +760,9 @@
   li a {
     display: flex;
   }
-  .modal-body p{
+  .modal-body p {
     text-align: left;
     margin-left: 30px;
-
   }
   .darkblue {
     background-color: #3358dc;
@@ -900,9 +898,8 @@
   .carou {
     display: none;
   }
-  .gallery li{
+  .gallery li {
     padding: 0 50px;
-  
   }
   .gallery {
     padding: 1rem;
@@ -991,7 +988,7 @@
   #important p {
     padding-top: 20px;
     display: flex-box;
-    margin-left: 0px
+    margin-left: 0px;
     /* text-align: left; */
   }
 
@@ -1233,12 +1230,515 @@
     text-align: right;
     grid-column: 3/3;
   }
+}
 
+/* --------------------------------Laptop view -------------------------------- */
+
+@media only screen and (min-width: 1025px) {
+  .menu-icon {
+    display: none;
+  }
+  #myModal {
+    display: none;
+  }
+  .more {
+    margin-top: 2%;
+  }
+  h1 {
+    margin-bottom: 10%;
+  }
+  /* navbar */
+  .logo {
+    /* margin: 70px 0px 70px 62px; */
+    margin: 1em;
+  }
+  .logo img {
+    width: 9em;
+  }
+  .current {
+    border-bottom: solid #3358dc 7px;
+    /* padding-bottom: 1em; */
+  }
+  #navbar {
+    display: flex;
+    z-index: 2;
+    padding-left: 1em;
+  }
+  .nav-links {
+    display: flex;
+  }
+  #navbar ul {
+    margin: 10.5em auto auto auto;
+  }
+  #navbar ul li a {
+    font-size: 0.7em;
+    margin-left: 1.5em;
+  }
+  #right {
+    display: flex;
+    margin-right: 1em;
+    /* margin-left: auto; */
+    margin-top: 50px;
+  }
+  /* for phone on navbar */
+  #phone {
+    display: grid;
+    margin-right: 1em;
+  }
+  #imagephone {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-right: 1em;
+  }
+  #call {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 1em;
+    margin-top: -10px;
+  }
+  #telephone {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: -90px;
+    margin-bottom: auto;
+    font-size: 1em;
+    text-decoration: underline;
+  }
+  /* office hours on nav bar */
+  #mobileimagehours {
+    display: none;
+  }
+  #hours {
+    display: grid;
+  }
+  #imagehours {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-right: 1em;
+  }
+  #officehours {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 1em;
+    margin-top: -10px;
+  }
+  #hourTable {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 1em;
+    line-height: 0em;
+    margin-bottom: 1em;
+  }
+  #hourTable th {
+    font-weight: lighter;
+    text-align: left;
+  }
+
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    border-bottom: solid #3358dc 7px;
+    padding-bottom: 10px;
+  }
+  #myModalHours {
+    display: none;
+  }
+  /* -----------------statement section------------------- */
+  #covid {
+    /* background-color: #FF0000; */
+    /* padding: 4px; */
+    /* max-width: 231px; */
+    /* max-height: 500px; */
+    position: relative;
+    font-weight: 600;
+    font-size: 24px;
+    /* white-space: nowrap; */
+    width: 0;
+    height: 0;
+    border-top: 150px solid rgba(255, 0, 0, 0.4);
+    border-right: 700px solid transparent;
+    /* flex: 1; */
+    /* margin-right: 50px; */
+  }
+
+  #cvd {
+    position: absolute;
+    padding-left: 25px;
+    top: -120px;
+    white-space: nowrap;
+    font-size: 24px;
+  }
+  #rule {
+    position: absolute;
+    padding-left: 25px;
+    top: -80px;
+    font-size: 18px;
+  }
+
+  #statement {
+    /* padding-top: 1%; */
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+    /* display: flex; */
+    height: auto;
+  }
+  #statement h2 {
+    text-align: left;
+    font-weight: lighter;
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  #headinggroup {
+    display: flex;
+  }
+  #heading {
+    width: 100%;
+    text-align: center;
+    margin: auto 0 auto 80px;
+    flex: 1;
+  }
+
+  #care {
+    text-align: left;
+    font-size: 20px;
+    padding-right: 70px;
+    margin: auto 15% 0 0;
+  }
+  #butt {
+    display: flex;
+    justify-content: left;
+    margin-top: 60px;
+  }
+  #butt button {
+    margin: 10px 10px 10px 0;
+  }
+
+  #header-image {
+    flex: 1;
+  }
+  #header-image img {
+    width: 100%;
+    height: auto;
+    padding-right: 100px;
+  }
+
+  /* service section */
+  #service,
+  #review,
+  #article {
+    text-align: left;
+    margin: 10% 5%;
+  }
+  .carou {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  }
+
+  #comp img,
+  #lasik img,
+  #eval img,
+  #pediatric img {
+    width: 320px;
+    height: 217px;
+    margin: auto;
+    padding: 5px;
+  }
+  #comp p,
+  #lasik p,
+  #eval p,
+  #pediatric p {
+    text-align: left;
+    padding-top: 8px;
+    padding-left: 5px;
+  }
+
+  #service button {
+    margin-top: 60px;
+  }
+
+  /* about section */
+  #about {
+    display: grid;
+    margin: 10% 5%;
+  }
+  /* #about img{
+    width: ;
+  } */
+  #glenimg {
+    width: 350px;
+    grid-row: 1/4;
+    grid-column: 1/2;
+    margin-left: 65px;
+  }
+  #glen {
+    font-size: 36px;
+    font-weight: lighter;
+    margin: 15% 10% 0% 20%;
+  }
+  #glenpar {
+    font-size: 20px;
+    text-align: left;
+    grid-row: 2/3;
+    margin: -5% 10% 0% 20%;
+  }
+
+  #glena {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    font-size: 20px;
+    margin: -5% 10% 0% 20%;
+    color: lightskyblue;
+  }
+  /* review section */
+  #review {
+    padding-bottom: 50px;
+  }
+  #review button {
+    margin-top: 40px;
+  }
+
+  .testimony {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+  /* .testimony p{
+  margin: 15px 0;
+} */
+  #review1 p,
+  #review2 p,
+  #review3 p {
+    /* word-wrap: break-word; */
+    text-align: left;
+  }
+  #review2 > .date {
+    padding-top: 78px;
+  }
+  #review3 > .date {
+    padding-top: 52px;
+  }
+
+  #review1,
+  #review2,
+  #review3 {
+    margin: 0 14px;
+    font-size: 20px;
+    flex: 1;
+  }
+  .date {
+    padding: 1.5em 0;
+  }
+
+  /* article section*/
+  #article {
+    padding-top: 2%;
+  }
+
+  #corrective img,
+  #vision img,
+  #important img {
+    width: 320px;
+    height: 217px;
+    margin: auto;
+    padding: 5px;
+  }
+
+  #corrective p,
+  #vision p,
+  #important p {
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 8px;
+  }
+
+  .gallery2 {
+    display: none;
+  }
+  .gallery3 {
+    display: none;
+  }
+  #article button {
+    margin-top: 60px;
+  }
+
+  /* bottom contact section */
+  h2 {
+    margin-bottom: 100px;
+  }
+  .hey {
+    display: none;
+  }
+  #hid {
+    display: none;
+  }
+  #contact {
+    padding: 5% 10%;
+    display: grid;
+  }
+  #bottomheader {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: xx-large;
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  /* bottom phone */
+  #contactPhone {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    display: grid;
+    margin-bottom: 50px;
+  }
+  #contactPhone img {
+    /* grid-row: 1/3;
+    grid-column: 1/2; */
+    margin-top: 10px;
+    margin-right: -30px;
+  }
+  #contactPhone p {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size: 1.2em;
+  }
+  #tellie {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-top: -20px;
+    font-size: 1.2em;
+  }
+  .empty {
+    grid-row: 1/3;
+    grid-column: 3/10;
+  }
+  /* bottom email */
+  #email {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    display: grid;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  #email img {
+    /* grid-row: 1/3;
+    grid-column: 1/2; */
+    margin-top: 10px;
+    margin-right: -20px;
+  }
+  #email p {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size: 1.2em;
+  }
+  #ema {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-top: -20px;
+    font-size: 1.2em;
+  }
+  .empty {
+    grid-row: 1/3;
+    grid-column: 3/10;
+  }
+  /* bottom address */
+  #address {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    display: grid;
+  }
+  #address img {
+    /* grid-row: 1/3; */
+    /* grid-column: 1/2; */
+    margin-top: -25px;
+    margin-right: 5px;
+  }
+  #address p {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  #add.tel.tel2 {
+    margin-top: 10px;
+  }
+  #add {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-size: 1.2em;
+  }
+  .tel2 {
+    text-decoration: none;
+  }
+  .empty {
+    grid-row: 1/3;
+    grid-column: 3/10;
+  }
+  /* bottom hours */
+  #bottomhours {
+    font-size: x-large;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-weight: lighter;
+  }
+  .modal2 {
+    display: none;
+  }
+  #open {
+    grid-row: 2/5;
+    grid-column: 2/3;
+    font-size: 1.2em;
+    text-align: left;
+    margin-top: -30px;
+  }
+  td {
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  th {
+    padding-top: 30px;
+    text-align: right;
+  }
+  /* bottomsocial */
+  #bottomsoc {
+    font-size: x-large;
+    grid-row: 1/2;
+    grid-column: 3/4;
+    font-weight: lighter;
+    margin-left: 60px;
+    padding-left: 25px;
+  }
+  #follow {
+    grid-row: 2/5;
+    grid-column: 3/4;
+    margin-left: 75px;
+    padding-top: 10px;
+  }
+  #fb {
+    margin-left: 5%;
+  }
+  #yelp img {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+  }
+  .gallery {
+    display: none;
+  }
+  #notice {
+    text-align: right;
+    grid-column: 3/3;
+  }
 }
 
 /* -------------------------------------------------------- desktop view -------------------------------------------------------------- */
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1400px) {
   .menu-icon {
     display: none;
   }
