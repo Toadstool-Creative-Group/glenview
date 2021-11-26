@@ -101,8 +101,8 @@
     float: right;
     font-size: 28px;
     font-weight: bold;
-    margin-top: 5px;
-    margin-right: 10px;
+    margin-top: 0px;
+    margin-right: 5px;
   }
 
   .close:hover,
@@ -149,7 +149,8 @@
   }
 
   .logo {
-    margin-right: 35px;
+    margin-right: 75px;
+    float: left;
   }
   .logo img {
     /* margin: auto; */
@@ -157,11 +158,18 @@
     height: 66px;
     /* margin-left:; */
   }
+  #right{
+    padding: 20px;
+  }
   #imagephone {
-    margin-top: 10px;
+    width: 16px;
+    margin-top: 5px;
   }
   #imagehours {
     display: none;
+  }
+  #mobileimagehours{
+    width: 16px;
   }
   #myModal li a {
     text-align: right;
@@ -299,6 +307,7 @@
   }
   ul.gallery, ul.gallery2, ul.gallery3{
     height: auto;
+    margin: 0 10px;
   }
   .name2 {
     padding-top: 70px;
@@ -381,7 +390,7 @@
   #important p {
     padding-top: 10px;
     display: flex-box;
-    margin-left: 15px;
+    margin-left: 20px;
     font-size: 16px;
   }
 
@@ -473,6 +482,7 @@
   .name,
   .name2 {
     font-size: 16px;
+    padding-left: 10px;
   }
 
   /* Article section */
@@ -498,7 +508,7 @@
     margin-bottom: 15%;
   }
   #contact {
-    padding: 5% 5% 15% 5%;
+    padding: 5% 30px 5%;
   }
   #reach {
     display: flex;
@@ -542,12 +552,12 @@
   .imagine {
     margin-right: 9%;
     margin-bottom: 15%;
+    
   }
   .imagine-yelp {
-    width: 32px;
-    margin-left: 5px;
+    /* width: 32px; */
+    /* margin-left: 5px; */
     margin-bottom: 15%;
-    padding-bottom: 0px;
   }
 
   .carou {
@@ -555,17 +565,9 @@
   }
   #notice {
     font-size: 12px;
-    text-align: right;
+    text-align: left;
   }
 
-  #contact img {
-    width: 40px;
-    /* padding-top: 12px; */
-  }
-  #yelp img {
-    width: 32px;
-    padding-bottom: 5px;
-  }
 }
 
 /* --------------------- tablet view ---------------------- */
