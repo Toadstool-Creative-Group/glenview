@@ -8,7 +8,7 @@
 /* mobile view */
 @media only screen and (max-width: 799px) {
   #hourTable,
-  .gout,
+  .gout,.bottom-gout,
   .tel {
     display: none;
   }
@@ -1479,6 +1479,9 @@
     display: grid;
     margin: 10% 5%;
   }
+  #aboutname{
+    font-weight: bold;
+  }
   /* #about img{
     width: ;
   } */
@@ -1992,6 +1995,9 @@
   /* #about img{
     width: ;
   } */
+  #aboutname{
+    font-weight: bold;
+  }
   #glenimg {
     width: 350px;
     grid-row: 1/4;
@@ -2235,7 +2241,7 @@
     grid-column: 3/4;
     font-weight: lighter;
     margin-left: 60px;
-    padding-left: 25px;
+    padding-left: 20px;
   }
   #follow {
     grid-row: 2/5;
