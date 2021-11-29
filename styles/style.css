@@ -1756,6 +1756,7 @@
   #notice p{
     font-size: 10px;
   }
+  
 }
 
 /* -------------------------------------------------------- desktop view -------------------------------------------------------------- */
@@ -1840,6 +1841,7 @@
   }
   #hours {
     display: grid;
+    margin-left: 15px;
   }
   #imagehours {
     grid-column: 1/2;
@@ -2011,20 +2013,20 @@
   #glen {
     font-size: 36px;
     font-weight: lighter;
-    margin: 15% 10% 0% 20%;
+    margin: 10% 10% 25px 20%;
   }
   #glenpar {
     font-size: 20px;
     text-align: left;
     grid-row: 2/3;
-    margin: -5% 10% 0% 20%;
+    margin: auto 10% auto 20%;
   }
 
   #glena {
     grid-row: 3/4;
     grid-column: 2/3;
     font-size: 20px;
-    margin: -5% 10% 0% 20%;
+    margin: 25px 10% 15% 20%;
     color: lightskyblue;
   }
   /* review section */
@@ -2256,8 +2258,9 @@
   /* #fb {
     margin-left: 5%;
   } */
-  .imagine{
-    width: 30px;
+ 
+  #exception{
+    width: 40px;
   }
  
   .gallery {
@@ -2271,6 +2274,7 @@
   #notice p{
     font-size: 10px;
   }
+
 }
 /* --------------------- outside media queries --------------- */
 /* body section */
@@ -2364,4 +2368,8 @@ li {
 #contact button {
   background-color: transparent;
   border: none;
+}
+
+.imagine{
+  width: 30px;
 }
