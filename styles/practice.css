@@ -164,12 +164,12 @@ h3{
 /* ---------------------outside media queries--------- */
 /* top section */
 #practiceTop{
-    background-color: #5e5e5e;
+    background-color: black;
 }
 
 /* bottom section */
 #practiceBottom{
-    background-color: #5e5e5e;
+    background-color: black;
 }
 #practiceBottom a{
     color: lightskyblue;
@@ -178,5 +178,5 @@ h3{
 
 /*image section*/
 #filler{
-    background-color: #5e5e5e;
+    background-color: black;
 }

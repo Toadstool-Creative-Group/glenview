@@ -307,27 +307,27 @@
 /* --------------------- outside media queries --------------- */
 /* top section */
 #serviceTop{
-    background-color: #5e5e5e;
+    background-color: black;
 }
 #serviceTop a{
     color: #ffffff;
 }
 /* bottom section */
 #serviceBottom{
-    background-color: #5e5e5e;
+    background-color: black;
 }
 .primary{
     background-color: #3358DC;
     color: white;
     border-radius: 7px;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25); */
     border: none;
 }
 .secondary{
     background-color: transparent;
     color: white;
     border-radius: 7px;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25); */
     border: 3px solid #3358DC;
 }
 button{
