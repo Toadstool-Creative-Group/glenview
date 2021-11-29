@@ -26,14 +26,15 @@ h3{
     margin-right: 40px;
 }
 
-#filler{
+/* #filler{
     justify-content: center;
-    margin: 0;
-}
+    margin: auto;
+} */
 #filler img{
-    width: 100%;
+    width: 50%;
     height: auto;
-    padding: 0 2em;
+    /* padding: 0 2em; */
+    margin-left: 25%;
 }
 
 .hidden-mobile{
@@ -55,8 +56,8 @@ h3{
 
 /* ---------------- tablet view ---------------- */
 @media only screen and (min-width: 800px){
-    #practiceTop, #practiceBottom{
-       padding: 0px 0;
+    #practiceBottom{
+       margin-top: -30px;
     }
     .title{
         margin-bottom: 25px;
@@ -114,16 +115,12 @@ h3{
     }
 /* -------------------desktop view----------- */
 @media only screen and (min-width: 1025px){
-    #practiceTop, #practiceBottom{
-        margin: 0;
-        padding-bottom: 0px;       
+    #practiceBottom{
+        margin-top: -100px;     
     }
    .top{
        display: flex;
    }
-   /* #practiceTop{
-       flex: 1;
-   } */
     h3{ 
         margin: 0;
         font-size: x-large;
@@ -160,7 +157,7 @@ h3{
     #filler img{
         padding: 15px 50px 0px 0px;
         margin-right: 50px;
-        width: 500px;
+        width: 400px;
         margin: auto;
     }
 }
