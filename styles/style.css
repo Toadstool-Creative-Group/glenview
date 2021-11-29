@@ -1551,9 +1551,9 @@
   }
 
   /* article section*/
-  #article {
+  /* #article {
     padding-top: 2%;
-  }
+  } */
 
   #corrective img,
   #vision img,
@@ -1776,7 +1776,8 @@
   /* navbar */
   .logo {
     /* margin: 70px 0px 70px 62px; */
-    margin: 1em;
+    margin: 0.5em 1em 1em 1em;
+    padding-left: 50px;
   }
   .logo img {
     width: 9em;
@@ -1792,9 +1793,12 @@
   }
   .nav-links {
     display: flex;
+    /* margin-bottom: -40px; */
   }
   #navbar ul {
-    margin: 10.5em auto auto auto;
+    margin-top: 10.5em;
+    margin-left: -40px;
+    margin-bottom: -40px;
   }
   #navbar ul li a {
     font-size: 1em;
@@ -2025,7 +2029,7 @@
   }
   /* review section */
   #review {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
   #review button {
     margin-top: 40px;
@@ -2064,9 +2068,9 @@
   }
 
   /* article section*/
-  #article {
+  /* #article {
     padding-top: 2%;
-  }
+  } */
 
   #corrective img,
   #vision img,
@@ -2249,15 +2253,13 @@
     margin-left: 80px;
     padding-top: 0px;
   }
-  #fb {
+  /* #fb {
     margin-left: 5%;
-  }
-  /* #yelp img {
-    width: 40px;
-    height: 40px;
-    margin-left: 5px;
-    margin-bottom: 6px;
   } */
+  .imagine{
+    width: 30px;
+  }
+ 
   .gallery {
     display: none;
   }
