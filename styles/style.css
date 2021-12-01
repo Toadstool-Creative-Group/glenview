@@ -1375,7 +1375,7 @@
     /* white-space: nowrap; */
     width: 0;
     height: 0;
-    border-top: 150px solid rgba(255, 0, 0, 0.4);
+    border-top: 150px solid #9D0202;
     border-right: 700px solid transparent;
     /* flex: 1; */
     /* margin-right: 50px; */
@@ -1896,7 +1896,7 @@
     /* white-space: nowrap; */
     width: 0;
     height: 0;
-    border-top: 150px solid rgba(255, 0, 0, 0.4);
+    border-top: 150px solid #9D0202;
     border-right: 220px solid transparent;
     /* flex: 1; */
     /* margin-right: 50px; */
