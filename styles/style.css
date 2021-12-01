@@ -1782,7 +1782,7 @@
   /* navbar */
   .logo {
     /* margin: 70px 0px 70px 62px; */
-    margin: 0.5em 1em 1em 1em;
+    margin: 1.5em 1em 1em 1em;
     padding-left: 50px;
   }
   .logo img {
@@ -1799,7 +1799,7 @@
   }
   .nav-links {
     display: flex;
-    /* margin-bottom: -40px; */
+    margin-bottom: 10px;
   }
   #navbar ul {
     margin-top: 10.5em;
@@ -1812,9 +1812,9 @@
   }
   #right {
     display: flex;
-    margin-right: 1em;
+    margin-right: 3.4em;
     /* margin-left: auto; */
-    margin-top: 50px;
+    margin-top: 25px;
   }
   /* for phone on navbar */
   #phone {
