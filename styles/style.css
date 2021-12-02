@@ -194,6 +194,9 @@
     margin: auto;
     border-spacing: 12px 10px;
   }
+  .hourTableModal td{
+    text-align: left;
+  }
 
   /* top section for landing page */
 
