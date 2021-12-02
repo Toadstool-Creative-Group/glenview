@@ -315,7 +315,7 @@
 
   .gallery::-webkit-scrollbar {
     width: 0em;
-    height: 0.2em;
+    height: 0.3em;
   }
   .gallery::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 9px rgba(240, 240, 240, 1);
@@ -325,7 +325,7 @@
   }
   .gallery2::-webkit-scrollbar {
     width: 1em;
-    height: 0.2em;
+    height: 0.3em;
   }
   .gallery2::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 9px rgba(240, 240, 240, 1);
@@ -335,7 +335,7 @@
   }
   .gallery3::-webkit-scrollbar {
     width: 1em;
-    height: 0.2em;
+    height: 0.3em;
   }
   .gallery3::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 9px rgba(240, 240, 240, 1);
@@ -603,7 +603,7 @@
   }
   #right {
     display: flex;
-    /* margin-right: 1em; */
+    margin-right: 2em;
     margin-left: auto;
     /* margin-top: 50px; */
   }
@@ -658,7 +658,7 @@
   }
   #hourTable th {
     font-weight: lighter;
-    text-align: left;
+    text-align: right;
   }
 
   #myModalHours {
@@ -923,13 +923,13 @@
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
     overflow: auto;
-    height: 20vh;
+    height: 18vh;
     scroll-snap-type: both mandatory;
     scroll-padding: 1rem;
   }
   .gallery::-webkit-scrollbar {
     width: 0.5em;
-    height: 0.7em;
+    height: 0.4em;
   }
   .gallery::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 9px rgba(240, 240, 240, 1);
@@ -939,7 +939,7 @@
   }
   .gallery2::-webkit-scrollbar {
     width: 1em;
-    height: 0.7em;
+    height: 0.4em;
   }
   .gallery2::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 9px rgba(240, 240, 240, 1);
@@ -949,7 +949,7 @@
   }
   .gallery3::-webkit-scrollbar {
     width: 1em;
-    height: 0.7em;
+    height: 0.4em;
   }
   .gallery3::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 9px rgba(240, 240, 240, 1);
@@ -1014,7 +1014,7 @@
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
     overflow: auto;
-    height: 40vh;
+    height: 25vh;
     scroll-snap-type: both mandatory;
     scroll-padding: 1rem;
   }
@@ -1026,7 +1026,7 @@
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
     overflow: auto;
-    height: 40vh;
+    height: 25vh;
     scroll-snap-type: both mandatory;
     scroll-padding: 1rem;
   }
@@ -1314,7 +1314,7 @@
   #telephone {
     grid-column: 2/3;
     grid-row: 2/3;
-    margin-top: -90px;
+    margin-top: -105px;
     margin-bottom: auto;
     font-size: 1em;
     text-decoration: underline;
@@ -1347,7 +1347,7 @@
   }
   #hourTable th {
     font-weight: lighter;
-    text-align: left;
+    text-align: right;
   }
 
   li a {
@@ -1835,7 +1835,7 @@
   #telephone {
     grid-column: 2/3;
     grid-row: 2/3;
-    margin-top: -90px;
+    margin-top: -105px;
     margin-bottom: auto;
     font-size: 1em;
     text-decoration: underline;
@@ -1868,7 +1868,7 @@
   }
   #hourTable th {
     font-weight: lighter;
-    text-align: left;
+    text-align: right;
   }
 
   li a {
@@ -2358,7 +2358,7 @@ li {
 .appt {
   /* background-color: #3358DC; */
   color: white;
-  border-radius: 7px;
+  border-radius: 5px;
   font-size: 18px;
   /* box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25); */
   width: 220px;
