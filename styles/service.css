@@ -101,6 +101,7 @@
         margin: 0 2em;
         width: 75%; 
     }
+
 }
 
 /* --------------------tablet view ----------------------- */
@@ -211,6 +212,14 @@
 
 /* -------------------- desktop view ---------------------- */
 @media only screen and (min-width: 1025px){
+      #telephone {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin-top: -90px;
+        margin-bottom: auto;
+        font-size: 1em;
+        text-decoration: underline;
+      }
     #serviceTop h2{
         text-align: center;
         padding-top: 50px;

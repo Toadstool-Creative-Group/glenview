@@ -63,6 +63,16 @@ h3.all-caps{
 body{
     line-height: 1.4;
 }
+
+#telephone {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: -90px;
+    margin-bottom: auto;
+    font-size: 1em;
+    text-decoration: underline;
+  }
+  
 #privacy-section{
     margin: 0 40px;
     padding: 0 40px 30px;
