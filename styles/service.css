@@ -1,6 +1,6 @@
-/* *{
+*{
     border: 1px solid red;
-} */
+}
 
 
 /* mobile view */
@@ -126,7 +126,7 @@
          font-size: 18px;
      }
     
-    .exams ul li{
+    /* .exams li{
         line-height: 1.1;
         margin-top: 10px;
         margin-left: 20px;
@@ -134,7 +134,13 @@
         padding-bottom: 20px;
         font-size: 18px;
         font-weight: bolder;
+    } */
+
+    #service-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
+    
     /* #serviceBottom h3{
         margin: 10px 0;
         padding-bottom: 8px;
@@ -150,16 +156,16 @@
         font-size: 18px;
     }
  
-    .exams{
+    /* .exams{
      margin: 40px 10px;
      padding: 10px 10px;
- }
-    .description{
+ } */
+    /* .description{
      margin-top: -5px;
      margin-left: 20px;
      margin-right: 20px;
      padding-bottom: 20px;
- }
+ } */
      .titles{
          font-size: 18px;
          font-weight: bold;
@@ -251,24 +257,24 @@
         }
 
     .exams{
-        margin: 0 40px;
-        padding: 30px 40px;
+        /* margin: 0 40px; */
+        /* padding: 30px 40px; */
         }
 
+    #service-grid{
+        margin: 5%;
+    }
     .description{
         font-size: 20px;
         padding-bottom: 20px;
-        padding-right: 450px;
-        margin-left: 20px;
-        margin-right: 290px;
-        margin-top: -10px;
+        margin: 10px 20px;
     }
 
-    .exams ul li{
+    .exams li{
         line-height: 1.1;
         margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 10px;
+        /* margin-left: 20px; */
+        /* margin-right: 10px; */
         padding-bottom: 20px;
         font-size: 24px;
         font-weight: bolder;
