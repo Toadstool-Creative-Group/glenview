@@ -1,6 +1,6 @@
-*{
+/* *{
     border: 1px solid red;
-}
+} */
 
 
 /* mobile view */
@@ -136,9 +136,13 @@
         font-weight: bolder;
     } */
 
-    #service-grid{
+    #service-grid, #Laterality-grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    #perceptual-therapy-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     
     /* #serviceBottom h3{
@@ -278,6 +282,9 @@
         padding-bottom: 20px;
         font-size: 24px;
         font-weight: bolder;
+    }
+    .table-row-title{
+        display: flex;
     }
     
     .titles{
