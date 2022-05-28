@@ -141,6 +141,13 @@
         width: 70px;
         margin-left: 5%;
     }
+    #slide1, #slide2, #slide3 {
+        display: flex;
+    }
+    /* #slide2 .tiny-img{
+        width: 70px;
+        margin-left: 5%;
+    } */
     /* Style the Image Used to Trigger the Modal */
     .myImg {
         border-radius: 5px;
@@ -156,11 +163,12 @@
         position: fixed; /* Stay in place */
         z-index: 1; /* Sit on top */
         padding: 2%;  
-        left: 20%;
-        top: 10%;
+        left: 50%;
+        top: 50%;
         width: 50%; /* Full width */
-        height: 50%; /* Full height */
-        overflow: hidden; 
+        height: 65%; /* Full height */
+        overflow: auto; 
+        transform: translate(-50%, -50%);
         background-color: rgb(134, 26, 26); /* Fallback color */
         background-color: rgba(182, 31, 31, 0.9); /* Black w/ opacity */
     }
@@ -169,22 +177,64 @@
     .modalImage-content {
         margin: auto;
         display: block;
-        width: 80%;
-        max-width: 700px;
+        position: relative;
+        background-color: transparent;
+        margin: auto;
+        padding: 0;
+        width: 65%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s;
     }
     
     /* Caption of Modal Image (Image Text) - Same Width as the Image */
-    .caption {
-        margin: auto;
+    #caption {
+        margin: 5% auto auto 18%;
         display: block;
-        width: 80%;
-        max-width: 700px;
-        text-align: center;
+        text-align: left;
         color: #ccc;
-        padding: 10px 0;
-        height: 150px;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 70%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    /* Position the "next button" to the right */
+    .next {
+        right: 5%;
+        border-radius: 3px 0 0 3px;
     }
     
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+    /* The dots/bullets/indicators */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 10px 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        /* transition: background-color 0.6s ease; */
+    }
+    
+    .active, .dot:hover {
+        background-color: #717171;
+    }
     /* Add Animation - Zoom in the Modal */
     .modalImage-content, #caption {
         animation-name: zoom;

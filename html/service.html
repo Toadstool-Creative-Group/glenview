@@ -128,6 +128,24 @@
         </div>
         <div class="exams">
             <ul id="service-grid">
+                <!-- The Modal -->
+                <div id="myImageModal" class="modalImage">
+                    <!-- The Close Button -->
+                    <span class="closeImg">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <img class="modalImage-content" id="img01">
+                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                    <!-- The dots/circles -->
+                    <br>
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption"></div>
+                </div> 
                 <li>Comprehensive Eye Examinations
                     <p class="description">Our comprehensive vision exams include a 
                         determination of prescription and a thorough evaluation of visual function
@@ -137,18 +155,11 @@
                         diabetes.
                     </p>
                     <!-- these are fake images just to get the modal and slideshow to work -->
-                    <img class="tiny-img myImg" src="../images/eyeceiling.png" alt="Ceiling that is shaped as an eye">
-                    <img class="tiny-img myImg" src="../images/firsteye.png" alt="Words to show up at bottom of picture">
-                    <img class="tiny-img myImg" src="../images/secondeye.png" alt="2nd eye to show words at bottom of picture">    
-                    <!-- The Modal -->
-                    <div id="myImageModal" class="modalImage">
-                        <!-- The Close Button -->
-                        <span class="closeImg">&times;</span>
-                        <!-- Modal Content (The Image) -->
-                        <img class="modalImage-content" id="img01">
-                        <!-- Modal Caption (Image Text) -->
-                        <div class="caption"></div>
-                    </div>                
+                    <div id="slide1">
+                        <img class="tiny-img myImg" src="../images/eyeceiling.jpg" alt="Ceiling that is shaped as an eye">
+                        <img class="tiny-img myImg" src="../images/firsteye.jpg" alt="Words to show up at bottom of picture">
+                        <img class="tiny-img myImg" src="../images/secondeye.jpg" alt="2nd eye to show words at bottom of picture">    
+                    </div>
                 </li>
                 <li>Contact Lenses
                     <p class="description">Contact lenses are medically prescribed to provide vision 
@@ -156,12 +167,23 @@
                         all conditions and ages. We have nationally recognized experts in the use of specialty 
                         contacts to manage eyes damaged from disease or trauma.
                     </p>
+                    <!-- these are fake images just to get the modal and slideshow to work -->
+                    <div id="slide2">
+                        <img class="tiny-img myImg" src="../images/falseimgeyecontraption.jpg" alt="Eye Contraption">
+                        <img class="tiny-img myImg" src="../images/falseimgeyedoctor.jpg" alt="Eye Doctor">
+                        <img class="tiny-img myImg" src="../images/falseimgtwoeyes.jpg" alt="Two People">   
+                    </div>
                 </li>
                 <li>Corneal Refractive Therapy
                     <p class="description">Contact lenses may be used to mold the surface of the eye via 
                         overnight wear which provides vision correction without the need for spectacles or 
                         contacts during the day.
                     </p>
+                    <div id="slide3">
+                        <img class="tiny-img myImg" src="../images/falseimgeyetest.jpg" alt="Eye Test">
+                        <img class="tiny-img myImg" src="../images/pediatric-eye.jpg" alt="Kid Eye Test">
+                        <img class="tiny-img myImg" src="../images/falseimgwallofglasses.jpg" alt="Wall of glasses">   
+                    </div>
                 </li>
                 <li>Evaluation, Management, and Treatment of Eye Disease
                     <p class="description">Our office has the ability to detect and manage eye disease such 
